@@ -14,7 +14,7 @@ This wiki consists of a landing page, with basic information about what Iateria 
 
 As the project moves along development, completed features will be listed here.
 
-### Features left to implement
+### Features left to implement (near future)
 
 Here a list of all features to be implemented
 
@@ -22,3 +22,65 @@ Here a list of all features to be implemented
 
     - Featured on all pages of the site, the navbar will contain 2 parts: A logo and menu to the main pages of the site, and a sub menu that will be specific to each site and subsite
     - This feature will allow for easy navigation to the main parts of the sites.
+
+### Information pages
+
+These pages will all follow the same format and structure, making information easy to find and making them feel intuitive. The page about dwarves will be stuctured the same as the page for orcs, for instance.
+
+- __Landing Page__
+
+    - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
+
+    - The main parts of the site will be displayed and given short information. These small infomartion segments will also contain a clickable link. This section will be divided into three parts with images to the left and right, and text in the center.
+
+- __The continent page__
+
+    - This feature is the first of the main parts of the site and contains information about the continent and its history.
+
+    - Will contain the subsections (may be made into separate pages if they become to long and to densly packed with information) geography, history and magic.
+
+- __The races page__
+
+    - This site will give a short presentation about the different races one might expect to find in on the continent of Iateria. It will provide links to further reading on many of the more prominent races.
+
+    - The site will contain subsections for a number of different races, including humans, dwarves, halflings, elves orcs and more.
+
+- __The countries and factions page__
+
+    - This feature will give a brief rundown on the different nations, factions and alliances that currently exist on the continent. Links to further reading for many of them will be provided.
+
+    - This section will aslo lead to different subsections where additional information on many nations or factions will give the user more knowledge about the world of Iateria.
+
+- __The footer__
+
+    - The footer will look the same on every page of the site. It will contain links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
+
+### Features left to implement (distant future)
+
+- __Search function__
+
+    - This feature will allow the user to enter a keyword in a textpox and if it is on the site, the user will be provided with links to the page where it can be found.
+
+    - This feature requires tech outside of the scope for this project
+
+- __Performance tracker__
+
+    - This section will allow a player participating in a game on the continent to view their performance so far by reading information about roll averages, damage done and healing provided.
+
+    - This feature requires tech outside of the scope for this project
+
+## Testing
+
+### Validator testing
+
+### Unfixed bugs
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+
