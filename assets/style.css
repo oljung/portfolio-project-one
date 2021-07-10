@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    color: #3a3a3a;
+}
+/* Font and letter spacing for logo and headings and default coloring*/
+h1, h2, h3, h4 {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #252525;
+    letter-spacing: 4px;
+}
+
