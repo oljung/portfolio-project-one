@@ -18,3 +18,17 @@ h1, h2, h3, h4 {
     letter-spacing: 4px;
 }
 
+/* Header including navbar and logo*/
+
+header {
+    color: #2F4F4F;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    color: inherit;
+}
+
+
+
