@@ -32,6 +32,10 @@ header {
     
 }
 
+header > a {
+    color: inherit;
+}
+
 #logo {
     float: left;
     font-size: 200%;
