@@ -14,14 +14,17 @@ This wiki consists of a landing page, with basic information about what Iateria 
 
 As the project moves along development, completed features will be listed here.
 
-### Features left to implement (near future)
-
-Here a list of all features to be implemented
-
 - __Navigation bar__
 
     - Featured on all pages of the site, the navbar will contain 2 parts: A logo and menu to the main pages of the site, and a sub menu that will be specific to each site and subsite
     - This feature will allow for easy navigation to the main parts of the sites.
+
+### Features left to implement (near future)
+
+Here a list of all features to be implemented
+
+- __Subsection navigation bar__
+    - This feature will be a "hamburger" icon used to navigate the subsections of a information page.
 
 ### Information pages
 
@@ -70,6 +73,14 @@ These pages will all follow the same format and structure, making information ea
     - This feature requires tech outside of the scope for this project
 
 ## Testing
+
+- __nav bar__
+
+    - The navbar was positioned correctly from the first test, however it became clear that more space was needed between each link. The styling went as intended, with the default styling removed and color and font of the site applied. The active page was given a background color and different text color, and after testing I decided to add some padding to the active class, making the background color cover some area around the text as well. The same style was then applied to the hover pseudo class, which also had its font increased in size to make the link "pop out" when hovered over.
+
+- __Landing page__
+
+    - After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped.
 
 ### Validator testing
 
