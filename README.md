@@ -19,6 +19,12 @@ As the project moves along development, completed features will be listed here.
     - Featured on all pages of the site, the navbar will contain 2 parts: A logo and menu to the main pages of the site, and a sub menu that will be specific to each site and subsite
     - This feature will allow for easy navigation to the main parts of the sites.
 
+- __Landing Page__
+
+    - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
+
+    - The main parts of the site will be displayed and given short information. These small infomartion segments will also contain a clickable link. This section will be divided into three parts with images to the left and right, and text in the center.
+
 ### Features left to implement (near future)
 
 Here a list of all features to be implemented
@@ -29,12 +35,6 @@ Here a list of all features to be implemented
 ### Information pages
 
 These pages will all follow the same format and structure, making information easy to find and making them feel intuitive. The page about dwarves will be stuctured the same as the page for orcs, for instance.
-
-- __Landing Page__
-
-    - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
-
-    - The main parts of the site will be displayed and given short information. These small infomartion segments will also contain a clickable link. This section will be divided into three parts with images to the left and right, and text in the center.
 
 - __The continent page__
 
@@ -80,7 +80,7 @@ These pages will all follow the same format and structure, making information ea
 
 - __Landing page__
 
-    - After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped.
+    - After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped. For the main part of the ladning page, a flex box display was used. I followed a tutorial found [here](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on w3s and adapted it to suite my needs. Above the 3 part section there is an information about hte site, simply a paragraph with slightly larger font size and a margin to separate it from the hero image. It took some testing to get the flex box to display the way i wanted, for the "justfity-content: space-between; to work i needed to remove the width of the images. Further testing will continue (written 2021-07-12) to find out if that was the issue.
 
 ### Validator testing
 
