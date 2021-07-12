@@ -81,3 +81,30 @@ header {
 
     background: url(../images/iateria-hero.jpg) no-repeat center center;
 }
+
+#cover-text { 
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: capitalize;
+    width: 360px;
+    height: 250px;
+    background-color: #FFF7EB;
+    color: #2F4F4F;
+    /* Solution found on stack overflow, this centers the cover-text div on the x-axis*/
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, 0);
+
+    text-align: center;
+    margin-top: 20px;
+}
+#cover-text h2, #cover-text h3 {
+    margin-top: 20px;
+    font-size: 200%;
+}
+
+#cover-text p {
+    margin-top: 40px;
+    font-family: 'EB Garamond', serif;
+    font-size: 110%;
+}
