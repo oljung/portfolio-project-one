@@ -22,6 +22,14 @@ h1, h2, h3, h4 {
 
 header {
     color: #2F4F4F;
+    background-color: #FFF7EB;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1
+    
 }
 
 #logo {
