@@ -28,6 +28,7 @@ header {
     float: left;
     font-size: 200%;
     color: inherit;
+    margin-left: 40px;
 }
 
 .menu, #logo {
