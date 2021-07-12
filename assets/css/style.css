@@ -63,3 +63,21 @@ header {
     size: 110%;
     color: #1F3333;
 }
+
+/* Hero image section */
+
+    /* Set limits for section size */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    /* To cover the whole section */
+    height: 600px;
+    width: 100%;
+
+    background: url(../images/iateria-hero.jpg) no-repeat center center;
+}
