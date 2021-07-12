@@ -82,9 +82,13 @@ These pages will all follow the same format and structure, making information ea
 
     The navbar was positioned correctly from the first test, however it became clear that more space was needed between each link. The styling went as intended, with the default styling removed and color and font of the site applied. The active page was given a background color and different text color, and after testing I decided to add some padding to the active class, making the background color cover some area around the text as well. The same style was then applied to the hover pseudo class, which also had its font increased in size to make the link "pop out" when hovered over.
 
+    The entire header is fixed in position. This proved problematic at first, as it would not display apart from on different places of the site. the solution, apart from placing it in the correct position and fixing position, was to adjust z-index to 1. placing it in front of all other elements.
+
 - __Landing page__
 
     After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped. For the main part of the ladning page, a flex box display was used. I followed a tutorial found [here](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on w3s and adapted it to suite my needs. Above the 3 part section there is an information about hte site, simply a paragraph with slightly larger font size and a margin to separate it from the hero image. It took some testing to get the flex box to display the way i wanted, for the "justfity-content: space-between; to work i needed to remove the width of the images. Further testing will continue (written 2021-07-12) to find out if that was the issue.
+
+    When replacing placeholder images with the correct once the entire site bugged out. This was solved by tagetting the images and setting their sizes to inherit from parent element, whose size is controlled by the flexbox display. This rendered teh images to display correctly down to a size of 1200px where responsive design will take over.
 
 - __Footer__
 
