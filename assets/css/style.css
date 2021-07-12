@@ -111,7 +111,13 @@ header {
 
 /* Main section of landing page */
 
+#site-info {
+    margin-top: 50px;
+    font-size: 150%;
+}
+
 .flex-container {
+    /* From w3s tutorial */
     display: flex;
     justify-content: space-between;
 
