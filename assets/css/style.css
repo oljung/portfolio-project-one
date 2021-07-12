@@ -147,3 +147,37 @@ header {
 #center-landing h2 {
     margin-top: 30px;
 }
+
+/* Footer with links and copyright */
+
+footer {
+    color: #FFF7EB;
+    background-color: #2F4F4F;
+    font-size: 120%;
+    width: 100%;
+    height: 150px;
+}
+
+#external-links {
+    float: left;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#copyright {
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF7EB;
+    margin-top: 5px;
+}
+
+footer a:hover {
+    color: #F28F3B;
+}
