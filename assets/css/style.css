@@ -121,23 +121,33 @@ header {
     display: flex;
     justify-content: space-between;
 
-    height: 450px;
+    height: 600px;
+    overflow: hidden;
 }
 
 #center-landing {
     max-width: 40%;
-    height: 450px;
+    height: 600px;
     text-align: justify;
-    margin-top: 30px;
+    padding: 0 10px;
 }
 
 #left-landing {
     height: 450px;
     margin-top: 30px;
 }
+#left-landing img {
+    height: inherit;
+    width: inherit;
+}
+
 #right-landing {
     height: 450px;
     margin-top: 30px;
+}
+#right-landing img {
+    height: inherit;
+    width: inherit;
 }
 
 #center-landing > a {
