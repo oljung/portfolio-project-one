@@ -32,6 +32,11 @@ header {
     
 }
 
+hr {
+    padding-bottom: 20px;
+    clear: both;
+}
+
 header > a {
     color: inherit;
 }
@@ -227,6 +232,26 @@ footer a:hover {
 
 #back-to-top h4 {
     color: #FFF7EB;
+}
+
+.info-content {
+    clear: both;
+    margin: 40px;
+}
+.text-content {
+    width: 50%;
+    text-align: justify;
+    font-size: 110%;
+    float: left;
+}
+
+.text-content h2, .text-content h3 {
+    padding: 20px 0;
+}
+
+.image-content {
+    width: 40%;
+    float: right;
 }
 
 /* Media quiries for responsive design */
