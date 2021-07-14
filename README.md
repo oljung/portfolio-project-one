@@ -20,6 +20,9 @@ As the project moves along development, completed features will be listed here.
     - This feature will allow for easy navigation to the main parts of the sites.
     - Has a collapsable menu by clicking a "burger" icon on smaller screens.
 
+- __Subsection navigation bar__
+    - This feature is a "hamburger" icon used to navigate the subsections of a information page on a smaller screen. On larger screens the menu is placed underneath the heading.
+
 - __Landing Page__
 
     - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
@@ -33,9 +36,6 @@ As the project moves along development, completed features will be listed here.
 ### Features left to implement (near future)
 
 Here a list of all features to be implemented
-
-- __Subsection navigation bar__
-    - This feature will be a "hamburger" icon used to navigate the subsections of a information page.
 
 ### Information pages
 
@@ -86,6 +86,8 @@ These pages will all follow the same format and structure, making information ea
     The entire header is fixed in position. This proved problematic at first, as it would not display apart from on different places of the site. the solution, apart from placing it in the correct position and fixing position, was to adjust z-index to 1. placing it in front of all other elements.
 
     When adapting the nav bar to smaller screens, I followed a tutorial by [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793) to create a collapsable menu using only css elements. This code was then adapted to fit the sites layout and coloring. This led to significant testing to find out what part of the css changed what part of the menu. After some toubleshooting, quite a bit of bugfixing due to spelling mistakes, I was able to adapt the menu to fit my intentions. All in all this testing process took about 45 minutes, which compared to other parts of the testing and bugfixing is rather significant.
+
+    The same method used for main menu collapsable for smaller screens was used for subsection menu as well. The code then again had to be adapted to suite the new menu, classes renamed and the css-code changed. This resulted in some testing and bugfixing but the experience of the main menu helped and it was over all a success.
 
 - __Landing page__
 
