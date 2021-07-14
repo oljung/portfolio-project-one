@@ -264,10 +264,13 @@ footer a:hover {
 .image-content {
     width: 40%;
     float: right;
+    margin-top: 30px;
 }
 
 .image-content img {
     width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 /* Media quiries for responsive design */
@@ -617,5 +620,12 @@ footer a:hover {
 
     #external-links a {
         padding: 0 10px;
+    }
+
+    /* Information pages */
+    .text-content, .image-content {
+        float: none;
+        clear: both;
+        width: 90%;
     }
 }
