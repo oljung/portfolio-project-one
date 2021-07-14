@@ -234,12 +234,21 @@ footer a:hover {
         font-size: 150%;
     }
 
-    .burger-menu {
+    #burger-menu-main {
         float: right;
         margin-right: 30px;
         display: flex;
         align-items: baseline;
         color: #2F4F4F;
+    }
+
+    .burger-menu-sub {
+        float: left;
+        margin-left: 30px;
+        display: flex;
+        align-items: baseline;
+        color: #2F4F4F;
+        margin-top: 75px;
     }
     /* Code for collapsing hamburger menu, adapted from the works of Mark Caron */
     
@@ -253,7 +262,7 @@ footer a:hover {
         clip: rect(0,0,0,0);
         border: 0;
     }
-    
+    /* Main menu part */
     .burger-menu-toggle {
         display: inline-block;
         padding: .75em 15px;
@@ -339,8 +348,8 @@ footer a:hover {
         z-index: 1000;
     }
 
-    .hamburger-menu:target + .backdrop,
-    .hamburger-menu[aria-expanded="true"] + .backdrop{
+    .main-menu-burger:target + .backdrop,
+    .main-menu-burger[aria-expanded="true"] + .backdrop{
         position: absolute;
         display: block;  
         left: 0;
@@ -354,9 +363,114 @@ footer a:hover {
     }
 
     @supports (position: fixed) {
-        .hamburger-menu,
-        .hamburger-menu:target + .backdrop,
-        .hamburger-menu[aria-expanded="true"] + .backdrop{
+        .main-menu-burger,
+        .main-menu-burger:target + .backdrop,
+        .main-menu-burger[aria-expanded="true"] + .backdrop{
+            position: fixed;
+        }
+    }
+
+    /* Subsection menu part */
+
+    .burger-sub-menu-toggle {
+        display: inline-block;
+        padding: .75em 15px;
+        line-height: 50px;
+        font-size: 150%;
+        color: #2F4F4F;
+    }
+
+    .burger-sub-menu-toggle:hover, .burger-sub-menu-toggle:focus {
+        color: #F28F3B;
+    }
+
+    .sub-menu-burger {
+        position: absolute;
+        display: none;
+        right: 10px;
+        top: 0;
+        height: 200px;
+        overflow-y: scroll;
+        overflow-x: visible;
+        transition: left 0.3s ease,
+                    box-shadow 0.3s ease;
+        z-index: 999;
+    }
+
+    .sub-menu-burger ul{
+        list-style: none;
+        margin: 0;
+        padding: 2.5em 0 0;
+        /* Hide shadow w/ -8px while 'closed' */
+        -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+                box-shadow: -8px 0 8px rgba(0,0,0,.5);
+        min-height: 100%;
+        width: 200px;
+        background: #1F3333;
+    }
+
+    .sub-menu-burger a {
+        display: block;
+        padding: .75em 15px;
+        line-height: 1em;
+        font-size: 1em;
+        color: #FFF7EB;
+        text-decoration: none;
+    }
+
+    .sub-menu-burger li:first-child a {
+        border-top: 1px solid #383838;
+    }
+
+    .sub-menu-burger a:hover, .sub-menu-burger a:focus {
+        background: #2F4F4F;
+    }
+
+    .sub-menu-burger .burger-sub-menu-close {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    
+
+    .sub-menu-burger:target, .sub-menu-burger[aria-expanded="true"] {
+        display: block;
+        right: 10;
+        top: 75px;
+        outline: none;
+        -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+        -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+        box-shadow: 3px 0 12px rgba(0,0,0,.25);
+    }
+
+    .sub-menu-burger:target .burger-sub-menu-close, .sub-menu-burger[aria-expanded="true"] .burger-sub-menu-close {
+        z-index: 1001;
+    }
+
+    .sub-menu-burger:target ul, .sub-menu-burger[aria-expanded="true"] ul {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .sub-menu-burger:target + .backdrop,
+    .sub-menu-burger[aria-expanded="true"] + .backdrop{
+        position: absolute;
+        display: block;  
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 998;
+        background: #000;
+        background: rgba(0,0,0,.85);
+        cursor: default;
+    }
+
+    @supports (position: fixed) {
+        .sub-menu-burger,
+        .sub-menu-burger:target + .backdrop,
+        .sub-menu-burger[aria-expanded="true"] + .backdrop{
             position: fixed;
         }
     }
