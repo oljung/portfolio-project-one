@@ -213,6 +213,22 @@ footer a:hover {
     margin-left: 30px;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #1F3333;
+    padding: 5px;
+}
+
+#back-to-top a {
+    text-decoration: none;
+}
+
+#back-to-top h4 {
+    color: #FFF7EB;
+}
+
 /* Media quiries for responsive design */
 
 @media screen and (min-width: 1201px){
