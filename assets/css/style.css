@@ -222,7 +222,19 @@ footer a:hover {
         display: none;
     }
 
+    #logo {
+        font-size: 150%;
+    }
+
+    .burger-menu {
+        float: right;
+        margin-right: 30px;
+        display: flex;
+        align-items: baseline;
+        color: #2F4F4F;
+    }
     /* Code for collapsing hamburger menu, adapted from the works of Mark Caron */
+    
     .sr-only {
         position: absolute;
         width: 1px;
@@ -299,13 +311,6 @@ footer a:hover {
         top: 0;
       }
     
-    .burger-menu {
-        float: right;
-        margin-right: 30px;
-        display: flex;
-        align-items: baseline;
-        color: #2F4F4F;
-    }
 
     .main-menu-burger:target, .main-menu-burger[aria-expanded="true"] {
         display: block;
