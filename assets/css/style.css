@@ -263,6 +263,10 @@ footer a:hover {
     float: right;
 }
 
+.image-content img {
+    width: 100%;
+}
+
 /* Media quiries for responsive design */
 
 @media screen and (min-width: 1201px){
@@ -310,15 +314,17 @@ footer a:hover {
         float: left;
         overflow: hidden;
         padding-left: 20px;
+        width: 45%;
     }
     #right-landing {
         float: left;
         overflow: hidden;
         clear: left;
+        width: 45%;
     }
 
     #left-landing img, #right-landing img {
-        width: inherit;
+        width: 100%;
         height: inherit;
     }
 
