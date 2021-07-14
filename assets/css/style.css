@@ -387,7 +387,7 @@ footer a:hover {
     .sub-menu-burger {
         position: absolute;
         display: none;
-        right: 10px;
+        left: 10px;
         top: 0;
         height: 200px;
         overflow-y: scroll;
@@ -406,7 +406,7 @@ footer a:hover {
             -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
                 box-shadow: -8px 0 8px rgba(0,0,0,.5);
         min-height: 100%;
-        width: 200px;
+        width: 210px;
         background: #1F3333;
     }
 
@@ -429,15 +429,15 @@ footer a:hover {
 
     .sub-menu-burger .burger-sub-menu-close {
         position: absolute;
-        right: 0;
+        left: 160px;
         top: 0;
       }
     
 
     .sub-menu-burger:target, .sub-menu-burger[aria-expanded="true"] {
         display: block;
-        right: 10;
-        top: 75px;
+        left: 30px;
+        top: 150px;
         outline: none;
         -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
         -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
