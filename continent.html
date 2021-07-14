@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iateria Wiki</title>
+</head>
+<body>
+    <!-- Header with logo and nav bar menu -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Iateria Wiki</h1>
+        </a>
+        <nav class="menu" id="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                </li>
+                <li>
+                    <a href="continent.html" aria-label="Click here to go to the continent page" class="active">The Continent</a>
+                </li>
+                <li>
+                    <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                </li>
+                <li>
+                    <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                </li>
+                <li>
+                    <!-- Opens in a new tab for convenience -->
+                    <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                </li>
+                <li>
+                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info -->
+        <div class="burger-menu">
+            <!-- "Hamburger" bar icon -->
+            <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            <!-- Description for menu , displaying active page -->
+            <h2 class="burger-description-main">Continent</h2>
+            <nav id="main-menu-hamburger" class="main-menu-burger" aria-label="Main menu">
+                <!-- Close icon -->
+                <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="burger-menu-close" aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                    </li>
+                    <li>
+                        <a href="continent.html" aria-label="Click here to go to the continent page">The Continent</a>
+                    </li>
+                    <li>
+                        <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                    </li>
+                    <li>
+                        <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                    </li>
+                    <li>
+                        <!-- Opens in a new tab for convenience -->
+                        <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
+    </header>
+   
+    <!-- Footer with links to outside sources and copyright -->
+    <footer>
+        <p>Links to external sites to learn more about Dungeons and Dragons, how to play and where to play</p>
+        <div id="external-links">
+            <a href="https://dnd.wizards.com/" target="_blank" title="Link to dungeons and dragons homepage">Dungeons and Dragons homepage</a>
+            <a href="http://dndbeyond.com/" target="_blank" title="DnD online gaming">DnD Beyond</a>
+            <a href="http://fantasygrounds.com/" target="_blank" title="Fantasy grounds, plattform for online dnd">Fantasy Grounds</a>
+            <a href="http://roll20.net/" target="_blank" title="Roll20 online plattform for dnd">Roll20</a>
+        </div>
+        <div id="copyright">
+            <p>Copyright 2021 Patrik Österljung</p>
+        </div>
+    </footer>
+
+    <!--Font awesome script-->
+    <script src="https://kit.fontawesome.com/d9fbb6b6ff.js" crossorigin="anonymous"></script>
+</body>
+</html>
