@@ -131,6 +131,7 @@ header > a {
 #site-info {
     margin-top: 50px;
     font-size: 150%;
+    padding: 0 20px;
 }
 
 .flex-container {
@@ -193,6 +194,8 @@ footer {
     width: 100%;
     height: 150px;
     clear: both;
+    padding-top: 20px;
+    position: relative;
 }
 
 #external-links {
@@ -204,9 +207,9 @@ footer {
 }
 
 #copyright {
-    float: right;
-    margin-right: 20px;
-    margin-top: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 footer a{
@@ -325,7 +328,7 @@ footer a:hover {
 
     #left-landing img, #right-landing img {
         width: 100%;
-        height: inherit;
+        height: auto;
     }
 
     #center-landing h2 {
@@ -339,9 +342,6 @@ footer a:hover {
         clear: right;
     }
 
-    #site-info {
-        padding: 0 20px;
-    }
     /* Code for collapsing hamburger menu, adapted from the works of Mark Caron */
     
     .sr-only {
@@ -565,5 +565,57 @@ footer a:hover {
         .sub-menu-burger[aria-expanded="true"] + .backdrop{
             position: fixed;
         }
+    }
+}
+
+/* For screens sizes 800px and down */
+@media screen and (max-width: 800px){
+    /* Landing page */
+    #right-landing {
+        display: none;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+        justify-content: flex-start;
+        background: url(../images/magic-scroll.png) no-repeat center center fixed;
+    }
+
+    #left-landing {
+        max-width: 75%;
+        min-width: 55%;
+        height: 600px;
+    }
+    #center-landing {
+        width: 90%;
+        max-width: none;
+    }
+    #center-landing h2 {
+        padding: 0;
+    }
+
+    /* Footer for small screens */
+
+    footer {
+        height: 150px;
+    }
+
+    #footer-info {
+        display: none;
+    }
+
+    #external-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #external-links a {
+        padding: 0 10px;
     }
 }
