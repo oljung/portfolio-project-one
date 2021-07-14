@@ -169,6 +169,15 @@ header > a {
 
 #center-landing > a {
     text-decoration: none;
+    color: #252525;
+}
+
+#center-landing > a:hover {
+    color: #2F4F4F;
+}
+
+a > h2 {
+    color: inherit;
 }
 
 #center-landing h2 {
@@ -263,8 +272,6 @@ footer a:hover {
     }
 }
 
-
-
     /* For screens of 1200px and down */
 @media screen and (max-width: 1200px) {
     .menu {
@@ -290,6 +297,44 @@ footer a:hover {
         align-items: baseline;
         color: #2F4F4F;
         margin-top: 75px;
+    }
+
+    /* Landing page main section */
+
+    .flex-container {
+        height: 1050px;
+        display: block;
+    }
+
+    #left-landing {
+        float: left;
+        overflow: hidden;
+        padding-left: 20px;
+    }
+    #right-landing {
+        float: left;
+        overflow: hidden;
+        clear: left;
+    }
+
+    #left-landing img, #right-landing img {
+        width: inherit;
+        height: inherit;
+    }
+
+    #center-landing h2 {
+        padding-bottom: 75px;
+    }
+
+    #center-landing {
+        float: right;
+        width: 45%;
+        height: 1050px;
+        clear: right;
+    }
+
+    #site-info {
+        padding: 0 20px;
     }
     /* Code for collapsing hamburger menu, adapted from the works of Mark Caron */
     
