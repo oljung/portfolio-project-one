@@ -13,29 +13,67 @@
         <a href="index.html">
             <h1 id="logo">Iateria Wiki</h1>
         </a>
-        <nav class="menu">
+        <nav class="menu" id="main-menu">
             <ul>
                 <li>
                     <a href="index.html" aria-label="Click here to go to home page" class="active">Home</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Click here to go to the continent page">The Continent</a>
+                    <a href="continent.html" aria-label="Click here to go to the continent page">The Continent</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Click here to go to the races page">The Races</a>
+                    <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Click here to go to the fatcions page">The Factions</a>
+                    <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
                 </li>
                 <li>
                     <!-- Opens in a new tab for convenience -->
                     <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
                 </li>
                 <li>
-                    <a href="#" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
                 </li>
             </ul>
         </nav>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info -->
+        <div class="burger-menu">
+            <!-- "Hamburger" bar icon -->
+            <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="menu-toggle" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>>
+            </a>
+            <nav id="main-menu-hamburger" class="main-menu" aria-label="Main menu">
+                <!-- Close icon -->
+                <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                    </li>
+                    <li>
+                        <a href="continent.html" aria-label="Click here to go to the continent page">The Continent</a>
+                    </li>
+                    <li>
+                        <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                    </li>
+                    <li>
+                        <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                    </li>
+                    <li>
+                        <!-- Opens in a new tab for convenience -->
+                        <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
     </header>
     <!-- Hero image with cover text -->
     <section id="hero-outer">
