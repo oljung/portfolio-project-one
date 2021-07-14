@@ -38,7 +38,7 @@
         </nav>
 
         <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
-        <div class="burger-menu">
+        <div class="burger-menu" id="burger-menu-main">
             <!-- "Hamburger" bar icon -->
             <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
                 <span class="sr-only">Open main menu</span>
@@ -98,43 +98,36 @@
     </div>
 
     <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
-    <div class="burger-menu">
+    <div class="burger-menu burger-menu-sub">
         <!-- "Hamburger" bar icon -->
-        <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
-            <span class="sr-only">Open main menu</span>
+        <a href="#sub-menu-hamburger" id="sub-menu-hamburger-toggle" class="burger-sub-menu-toggle" aria-label="Open subsection menu">
+            <span class="sr-only">Open subsection menu</span>
             <span class="fa fa-bars" aria-hidden="true"></span>
         </a>
         <!-- Description for menu , displaying active page -->
-        <h2 class="burger-description-main">Iateria</h2>
-        <nav id="main-menu-hamburger" class="main-menu-burger" aria-label="Main menu">
+        <h2 class="burger-description-sub">Subsections</h2>
+        <nav id="sub-menu-hamburger" class="sub-menu-burger" aria-label="Subsection menu">
             <!-- Close icon -->
-            <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="burger-menu-close" aria-label="Close main menu">
-                <span class="sr-only">Close main menu</span>
+            <a href="#sub-menu-hamburger-toggle" id="sub-menu-close" class="burger-sub-menu-close" aria-label="Close subsection menu">
+                <span class="sr-only">Close subsection menu</span>
                 <span class="fa fa-close" aria-hidden="true"></span>
             </a>
             <ul>
                 <li>
-                    <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                    <a href=#continent aria-label="Click here to go to continent section">Continent</a>
                 </li>
                 <li>
-                    <a href="iateria.html" aria-label="Click here to go to the Iateria page">Iateria</a>
+                    <a href=#history aria-label="Click here to go to the history section">History</a>
                 </li>
                 <li>
-                    <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                    <a href=#underdark aria-label="Click here to go to the underdark section">Underdark</a>
                 </li>
                 <li>
-                    <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
-                </li>
-                <li>
-                    <!-- Opens in a new tab for convenience -->
-                    <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
-                </li>
-                <li>
-                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    <a href=#magic aria-label="Click here to go to the fatcions page">Magic</a>
                 </li>
             </ul>
         </nav>
-        <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        <a href="#sub-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
     </div>
 
     <!-- Footer with links to outside sources and copyright -->
