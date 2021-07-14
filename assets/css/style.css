@@ -237,9 +237,13 @@ footer a:hover {
     .burger-menu-toggle {
         display: inline-block;
         padding: .75em 15px;
-        line-height: 1em;
-        font-size: 1em;
-        color: #333;
+        line-height: 50px;
+        font-size: 150%;
+        color: #2F4F4F;
+    }
+
+    .burger-description-main, .burger-description-sub {
+        color: inherit
     }
 
     .burger-menu-toggle:hover, .burger-menu-toggle:focus {
@@ -296,4 +300,12 @@ footer a:hover {
         right: 0;
         top: 0;
       }
+    
+    .burger-menu {
+        float: right;
+        margin-right: 30px;
+        display: flex;
+        align-items: baseline;
+        color: #2F4F4F;
+    }
 }
