@@ -37,7 +37,7 @@
             </ul>
         </nav>
 
-        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info -->
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
         <div class="burger-menu">
             <!-- "Hamburger" bar icon -->
             <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
@@ -96,6 +96,47 @@
             </ul>
         </nav>
     </div>
+
+    <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
+    <div class="burger-menu">
+        <!-- "Hamburger" bar icon -->
+        <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+        <!-- Description for menu , displaying active page -->
+        <h2 class="burger-description-main">Iateria</h2>
+        <nav id="main-menu-hamburger" class="main-menu-burger" aria-label="Main menu">
+            <!-- Close icon -->
+            <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="burger-menu-close" aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
+            <ul>
+                <li>
+                    <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                </li>
+                <li>
+                    <a href="iateria.html" aria-label="Click here to go to the Iateria page">Iateria</a>
+                </li>
+                <li>
+                    <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                </li>
+                <li>
+                    <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                </li>
+                <li>
+                    <!-- Opens in a new tab for convenience -->
+                    <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                </li>
+                <li>
+                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+    </div>
+
     <!-- Footer with links to outside sources and copyright -->
     <footer>
         <p>Links to external sites to learn more about Dungeons and Dragons, how to play and where to play</p>
