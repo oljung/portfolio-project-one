@@ -288,10 +288,10 @@ footer a:hover {
     background-color: rgba(47, 79, 79, .5);
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 20%;
     transform: translate(-50%, 0);
-
-    width: 300px;
+    width: 400px;
+    height: 500px;
     border: 1px solid #1F3333;
 
 }
