@@ -286,15 +286,55 @@ footer a:hover {
 }
 
 .signup-form {
-    background-color: rgba(47, 79, 79, .5);
+    background-color: rgba(47, 79, 79, .4);
+    
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
     transform: translate(-50%, 0);
-    width: 400px;
-    height: 500px;
+    
+    width: 350px;
+    height: 300px;
+    
     border: 1px solid #1F3333;
+    border-radius: 5px;
 
+    text-align: center;
+}
+
+.text-input {
+    width: 90%;
+    background: transparent;
+    border: 2px solid #1F3333;
+    margin-bottom: 20px;
+}
+
+.text-input:hover {
+    border-color: #F28F3B;
+}
+
+.signup-form > h2, .signup-form > h4 {
+    margin: 20px 0;
+}
+
+.signup-form > label {
+    color: #FFF7EB;
+}
+
+.join-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2px #2F4F4F;
+    background-color: #ceb189;
+    color: #2F4F4F;
+    font-weight: 600;
+    
+}
+
+.join-button:hover {
+    color: #ceb189;
+    background-color: #2F4F4F;
 }
 
 /* Media quiries for responsive design */
@@ -314,6 +354,8 @@ footer a:hover {
 
     #logo {
         font-size: 150%;
+        line-height: 85px;
+        margin-left: 20px;
     }
 
     #burger-menu-main {
