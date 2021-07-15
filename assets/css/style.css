@@ -294,7 +294,7 @@ footer a:hover {
 
     #burger-menu-main {
         float: right;
-        margin-right: 30px;
+        margin-right: 10px;
         display: flex;
         align-items: baseline;
         color: #2F4F4F;
