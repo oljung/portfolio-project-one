@@ -273,6 +273,29 @@ footer a:hover {
     margin-top: 20px;
 }
 
+/* Sign up form (adapted from CI love running project) */
+
+.form-section {
+    clear: left;
+    background: url(../images/paper-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    position: relative;
+}
+
+.signup-form {
+    background-color: rgba(47, 79, 79, .5);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 0);
+
+    width: 300px;
+    border: 1px solid #1F3333;
+
+}
+
 /* Media quiries for responsive design */
 
 @media screen and (min-width: 1201px){
