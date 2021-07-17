@@ -51,14 +51,14 @@ header > a {
     color: inherit;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 200%;
     color: inherit;
     margin-left: 40px;
 }
 
-.menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
@@ -94,14 +94,14 @@ header > a {
 /* Hero image section */
 
     /* Set limits for section size */
-#hero-outer {
+.hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image {
+.hero-image {
     /* To cover the whole section */
     height: 600px;
     width: 100%;
@@ -109,7 +109,7 @@ header > a {
     background: url(../images/iateria-hero.jpg) no-repeat center center;
 }
 
-#cover-text { 
+.cover-text { 
     font-family: 'Nanum Gothic', sans-serif;
     text-transform: capitalize;
     width: 360px;
@@ -125,12 +125,12 @@ header > a {
     text-align: center;
     margin-top: 20px;
 }
-#cover-text h2, #cover-text h3 {
+.cover-text h2, .cover-text h3 {
     margin-top: 20px;
     font-size: 200%;
 }
 
-#cover-text p {
+.cover-text p {
     margin-top: 40px;
     font-family: 'EB Garamond', serif;
     font-size: 110%;
@@ -138,7 +138,7 @@ header > a {
 
 /* Main section of landing page */
 
-#site-info {
+.site-info {
     margin-top: 50px;
     font-size: 150%;
     padding: 0 20px;
@@ -153,37 +153,37 @@ header > a {
     overflow: hidden;
 }
 
-#center-landing {
+.center-landing {
     max-width: 40%;
     height: 600px;
     text-align: justify;
     padding: 0 10px;
 }
 
-#left-landing {
+.left-landing {
     height: 450px;
     margin-top: 30px;
 }
-#left-landing img {
+.left-landing img {
     height: inherit;
     width: inherit;
 }
 
-#right-landing {
+.right-landing {
     height: 450px;
     margin-top: 30px;
 }
-#right-landing img {
+.right-landing img {
     height: inherit;
     width: inherit;
 }
 
-#center-landing > a {
+.center-landing > a {
     text-decoration: none;
     color: #252525;
 }
 
-#center-landing > a:hover {
+.center-landing > a:hover {
     color: #2F4F4F;
 }
 
@@ -191,7 +191,7 @@ a > h2 {
     color: inherit;
 }
 
-#center-landing h2 {
+.center-landing h2 {
     margin-top: 30px;
 }
 
@@ -208,7 +208,7 @@ footer {
     position: relative;
 }
 
-#external-links {
+.external-links {
     float: left;
     background-color: inherit;
     display: flex;
@@ -216,7 +216,7 @@ footer {
     margin-left: 30px;
 }
 
-#copyright {
+.copyright {
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -240,7 +240,7 @@ footer a:hover {
     margin-left: 30px;
 }
 
-#back-to-top {
+.back-to-top {
     position: fixed;
     bottom: 10px;
     right: 20px;
@@ -248,11 +248,11 @@ footer a:hover {
     padding: 5px;
 }
 
-#back-to-top a {
+.back-to-top a {
     text-decoration: none;
 }
 
-#back-to-top h4 {
+.back-to-top h4 {
     color: #FFF7EB;
 }
 
@@ -365,13 +365,13 @@ footer a:hover {
         width: 800px;
     }
 
-    #logo {
+    .logo {
         font-size: 150%;
         line-height: 85px;
         margin-left: 20px;
     }
 
-    #burger-menu-main {
+    .burger-menu-main {
         float: right;
         margin-right: 10px;
         display: flex;
@@ -395,29 +395,29 @@ footer a:hover {
         display: block;
     }
 
-    #left-landing {
+    .left-landing {
         float: left;
         overflow: hidden;
         padding-left: 20px;
         width: 45%;
     }
-    #right-landing {
+    .right-landing {
         float: left;
         overflow: hidden;
         clear: left;
         width: 45%;
     }
 
-    #left-landing img, #right-landing img {
+    .left-landing img, .right-landing img {
         width: 100%;
         height: auto;
     }
 
-    #center-landing h2 {
+    .center-landing h2 {
         padding-bottom: 75px;
     }
 
-    #center-landing {
+    .center-landing {
         float: right;
         width: 45%;
         height: 1050px;
@@ -653,7 +653,7 @@ footer a:hover {
 /* For screens sizes 800px and down */
 @media screen and (max-width: 800px){
     /* Landing page */
-    #right-landing {
+    .right-landing {
         display: none;
     }
     
@@ -670,16 +670,16 @@ footer a:hover {
         background: url(../images/magic-scroll.png) no-repeat center center fixed;
     }
 
-    #left-landing {
+    .left-landing {
         max-width: 75%;
         min-width: 55%;
         height: 600px;
     }
-    #center-landing {
+    .center-landing {
         width: 90%;
         max-width: none;
     }
-    #center-landing h2 {
+    .center-landing h2 {
         padding: 0;
     }
 
@@ -689,11 +689,11 @@ footer a:hover {
         height: 150px;
     }
 
-    #footer-info {
+    .footer-info {
         display: none;
     }
 
-    #external-links {
+    .external-links {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -701,7 +701,7 @@ footer a:hover {
         margin: 0;
     }
 
-    #external-links a {
+    .external-links a {
         padding: 0 10px;
     }
 
