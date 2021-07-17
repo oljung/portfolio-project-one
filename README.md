@@ -106,6 +106,11 @@ These pages will all follow the same format and structure, making information ea
     - Images
         Some issues with sizing, but much was solved when adding the fixed size for main content container, as suggested by mentor.
 
+- __Responsive design__
+
+    Implementing responsive design proved less troublesome than I orgininally feared. I decided on three different stylings for the landing page, one for sizes larger than 1200px, one for between 1200-800px and one for smaller than 800px. For the information pages only two layouts are needed, as the layout for larger and medium size work the same, with only smaller screens needing a different approach. As the layout is devided left to right on both landing page and information pages, the decision to stack content vertically on smaller screens felt like the most natural approach. In that case just removing any flex display or float left/right and instead centering content sorted display in of itself.
+
+    After meeting with mentor I got a lot of suggestions on how to align the content properly using paddings, and on the information pages padding text relating to different sections to make it clearer what belongs the what. I was also notified of some hierarchy issues on the landing page, sorted using some additional headings.
 
 
 ### Validator testing
