@@ -33,6 +33,12 @@ As the project moves along development, completed features will be listed here.
 
     - The footer looks the same on every page of the site. It will contain links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
 
+- __The Iateria page__
+
+    - This feature is the first of the main parts of the site and contains information about the continent and its history.
+
+    - Contains the subsections continent, history , underdark and magic, reachable via a subsection menu.
+
 ### Features left to implement (near future)
 
 Here a list of all features to be implemented
@@ -40,12 +46,6 @@ Here a list of all features to be implemented
 ### Information pages
 
 These pages will all follow the same format and structure, making information easy to find and making them feel intuitive. The page about dwarves will be stuctured the same as the page for orcs, for instance.
-
-- __The continent page__
-
-    - This feature is the first of the main parts of the site and contains information about the continent and its history.
-
-    - Will contain the subsections (may be made into separate pages if they become to long and to densly packed with information) geography, history and magic.
 
 - __The races page__
 
@@ -98,6 +98,13 @@ These pages will all follow the same format and structure, making information ea
 - __Footer__
 
     The footer was given opposite coloring to the heder, with background of dark slate grey and color of old lace. When links are highlighted they are colored in the background highlight for header links. This part proved to be pretty straight forward with minor tweaking of margins to get everything in a comfortable position. There is room for social media links, should the world of Iateria have social media platforms in the future.
+
+- __Iateria page__
+
+    The implementation of this page was rather straight forward, not presenting too many issues. After consulting with my mentor we decided to change the layout, so that it alternates between text on the left and text on the right. The structure will then be the same for all information pages, sharing the same styling. 
+
+    - Images
+        Some issues with sizing, but much was solved when adding the fixed size for main content container, as suggested by mentor.
 
 
 
