@@ -22,7 +22,6 @@ h1, h2, h3, h4 {
 .container {
     background-color: #FFF7EB;
     width: 1200px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #1F3333;
@@ -138,9 +137,12 @@ header > a {
 /* Main section of landing page */
 
 .site-info {
-    margin-top: 50px;
-    font-size: 150%;
-    padding: 0 20px;
+    margin: 50px 30px;
+}
+
+.site-info > p {
+    padding: 20px 10px;
+    font-size: 110%;
 }
 
 .flex-container {
