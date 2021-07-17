@@ -111,7 +111,6 @@ header > a {
 
 .cover-text { 
     font-family: 'Nanum Gothic', sans-serif;
-    text-transform: capitalize;
     width: 360px;
     height: 250px;
     background-color: #FFF7EB;
