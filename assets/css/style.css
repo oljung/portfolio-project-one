@@ -157,7 +157,7 @@ header > a {
 .center-landing {
     max-width: 40%;
     height: 600px;
-    text-align: justify;
+    text-align: center;
     padding: 0 10px;
 }
 
@@ -193,7 +193,7 @@ a > h2 {
 }
 
 .center-landing h2 {
-    margin-top: 30px;
+    margin: 30px 0 10px 0;
 }
 
 /* Footer with links and copyright */
@@ -414,15 +414,16 @@ footer a:hover {
         height: auto;
     }
 
-    .center-landing h2 {
-        padding-bottom: 75px;
-    }
-
     .center-landing {
         float: right;
         width: 45%;
         height: 1050px;
         clear: right;
+        padding-top: 150px;
+    }
+
+    .center-landing p {
+        margin-bottom: 50px;
     }
 
     /* Code for collapsing hamburger menu, adapted from the works of Mark Caron */
@@ -679,9 +680,7 @@ footer a:hover {
     .center-landing {
         width: 90%;
         max-width: none;
-    }
-    .center-landing h2 {
-        padding: 0;
+        padding-top: 0;
     }
 
     /* Footer for small screens */
