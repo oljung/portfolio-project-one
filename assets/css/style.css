@@ -233,6 +233,13 @@ footer a:hover {
     color: #F28F3B;
 }
 
+.footer-info {
+    padding-left: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 120%;
+}
+
 /* Information pages, all shared styling*/
 
 .sub-menu {
@@ -686,11 +693,11 @@ footer a:hover {
     /* Footer for small screens */
 
     footer {
-        height: 150px;
+        height: 200px;
     }
 
     .footer-info {
-        display: none;
+        text-align: center;
     }
 
     .external-links {
