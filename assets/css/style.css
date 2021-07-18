@@ -291,6 +291,10 @@ footer a:hover {
     padding: 20px 0;
 }
 
+.text-content h3, .text-content p {
+    padding-left: 10px;
+}
+
 .image-content {
     width: 40%;
     float: right;
