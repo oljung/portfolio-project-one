@@ -733,8 +733,14 @@ footer a:hover {
         width: 100%;
     }
 
+
     .external-links a {
         padding: 0 10px;
+        border-left: 1px solid;
+    }
+
+    .external-links a:first-child {
+        border-left: none;
     }
 
     .copyright {
