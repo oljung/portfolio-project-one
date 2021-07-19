@@ -82,7 +82,8 @@ header > a {
     float: right;
     clear: right;
     line-height: 0;
-    margin-right: 100px;
+    margin-right: 120px;
+    font-size: 100%;
 }
 
 .active {
@@ -417,19 +418,19 @@ footer a:hover {
 
     .burger-menu-main {
         float: right;
-        margin-right: 20px;
+        margin-right: 25px;
         display: flex;
-        align-items: baseline;
         color: #2F4F4F;
+        margin-top: 28px;
     }
 
     .burger-menu-sub {
-        float: left;
-        margin-left: 30px;
+        float: right;
         display: flex;
-        align-items: baseline;
         color: #2F4F4F;
-        margin-top: 75px;
+        clear: right;
+        margin-top: 10px;
+        margin-right: 5px;
     }
 
     /* Landing page main section */
@@ -484,8 +485,7 @@ footer a:hover {
     /* Main menu part */
     .burger-menu-toggle {
         display: inline-block;
-        padding: .75em 15px;
-        line-height: 50px;
+        padding-right: 10px;
         font-size: 150%;
         color: #2F4F4F;
     }
@@ -593,10 +593,13 @@ footer a:hover {
 
     .burger-sub-menu-toggle {
         display: inline-block;
-        padding: .75em 15px;
-        line-height: 50px;
-        font-size: 150%;
+        padding-right: 10px;
+        font-size: 100%;
         color: #2F4F4F;
+    }
+
+    .burger-menu-sub h2 {
+        font-size: 100%;
     }
 
     .burger-sub-menu-toggle:hover, .burger-sub-menu-toggle:focus {
