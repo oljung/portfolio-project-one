@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iateria Wiki</title>
+</head>
+<body>
+    <!-- Header with logo and nav bar menu -->
+    <header>
+        <a href="index.html">
+            <h1 class="logo">Iateria Wiki</h1>
+        </a>
+        <nav class="menu main-menu">
+            <ul>
+                <li>
+                    <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                </li>
+                <li>
+                    <a href="iateria.html" aria-label="Click here to go to the continent page">Iateria</a>
+                </li>
+                <li>
+                    <a href="races.html" aria-label="Click here to go to the races page" class="active">The Races</a>
+                </li>
+                <li>
+                    <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                </li>
+                <li>
+                    <!-- Opens in a new tab for convenience -->
+                    <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                </li>
+                <li>
+                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
+        <div class="burger-menu burger-menu-main">
+            <!-- "Hamburger" bar icon -->
+            <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            <!-- Description for menu , displaying active page -->
+            <h2 class="burger-description-main">Races</h2>
+            <nav id="main-menu-hamburger" class="main-menu-burger" aria-label="Main menu">
+                <!-- Close icon -->
+                <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="burger-menu-close" aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                    </li>
+                    <li>
+                        <a href="iateria.html" aria-label="Click here to go to the Iateria page">Iateria</a>
+                    </li>
+                    <li>
+                        <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                    </li>
+                    <li>
+                        <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                    </li>
+                    <li>
+                        <!-- Opens in a new tab for convenience -->
+                        <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
+
+        <!-- Menu for subsections -->
+        <div class="menu sub-menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href=#continent aria-label="Click here to go to continent section">Continent</a>
+                    </li>
+                    <li>
+                        <a href=#history aria-label="Click here to go to the history section">History</a>
+                    </li>
+                    <li>
+                        <a href=#underdark aria-label="Click here to go to the underdark section">Underdark</a>
+                    </li>
+                    <li>
+                        <a href=#magic aria-label="Click here to go to the fatcions page">Magic</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
+        <div class="burger-menu burger-menu-sub">
+            <!-- "Hamburger" bar icon -->
+            <a href="#sub-menu-hamburger" id="sub-menu-hamburger-toggle" class="burger-sub-menu-toggle" aria-label="Open subsection menu">
+                <span class="sr-only">Open subsection menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            <!-- Description for menu , displaying active page -->
+            <h2 class="burger-description-sub">Subsections</h2>
+            <nav id="sub-menu-hamburger" class="sub-menu-burger" aria-label="Subsection menu">
+                <!-- Close icon -->
+                <a href="#sub-menu-hamburger-toggle" id="sub-menu-close" class="burger-sub-menu-close" aria-label="Close subsection menu">
+                    <span class="sr-only">Close subsection menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href=#continent aria-label="Click here to go to continent section">Continent</a>
+                    </li>
+                    <li>
+                        <a href=#history aria-label="Click here to go to the history section">History</a>
+                    </li>
+                    <li>
+                        <a href=#underdark aria-label="Click here to go to the underdark section">Underdark</a>
+                    </li>
+                    <li>
+                        <a href=#magic aria-label="Click here to go to the fatcions page">Magic</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#sub-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
+    </header>
+    <!-- Page content container -->
+    <div class="container">
+
+        <!-- Back to top link -->
+        <div class="back-to-top">
+            <a href=#continent>
+                <h4>Back to top <i class="fas fa-arrow-up"></i></h4>
+            </a>
+        </div>
+        <!-- First main section of the page-->
+        <section id="races" class="info-content first-section">
+            <div class="text-content left-side">
+                <h2>Races</h2>
+                <p>
+                    The peoples of Iateria number many different races, 
+                    sometimes so different from one another that it is hard to see them all as humanoids. 
+                    Their genetic, social and cultural differences will not seldom lead to conflict. 
+                    By and large however many of them coexist with but minor frictions. 
+                    Some races are considered civilized members of the empire or surrounding nations, 
+                    while others are considered monstrous and evil by nature. Such races will be attacked on sight most of the time when near a settlement of other races. 
+                    There are significantly more races than those presented here, but these are some or the more common or significant.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <figure>
+                    <img src="assets/images/placeholder.jpg" alt="placeholder image">
+                    <figcaption>fig. 1 - Placeholder for continent</figcaption>
+                </figure>
+            </div>
+        </section>
+        <hr>
+        <!-- Second main section of the page -->
+        <section id="humans" class="info-content">
+            <div class="text-content right-side">
+                <h2>Humans</h2>
+                <p>
+                    The most numerous of the races of Iateria. 
+                    Originally the humans formed primitive tribes, 
+                    but their ambitious nature quickly saw them form organized kingdoms that eventually led to the downfall of the elves' golden age. 
+                    Humans live short lives compared to elves and dwarves, maturing around the age of 15 and usually dying of old age between 60 and 70. 
+                    It is not that uncommon to see humans reach the 80’s but most don’t expect to live that long. 
+                    They are often viewed as erratic and impulsive by the races with longer lifespans, 
+                    those races often regarding humans as upstart children. 
+                    Their adaptability and prolific nature has contributed to the spread of humans to every corner of the world and their rise to dominance.
+                </p>
+            </div>
+            <div class="image-content left-side">
+                <figure>
+                    <img src="assets/images/placeholder.jpg" alt="placeholder image">
+                    <figcaption>Fig. 2 - Placeholder 1 for history section</figcaption>
+                </figure>
+            </div>
+        </section>
+        <hr>
+        <!-- Third main section of the page -->
+        <section id="Elves" class="info-content">
+            <div class="text-content left-side">
+                <h2>Elves</h2>
+                <p>
+                    Elves are a noble race of slender build who live, compared to humans, extraordinarily long lives. 
+                    It is not uncommon for an elf to reach their 8th century. 
+                    Elves are, for instance, considered children for at least their first century alive. 
+                    This may explain why elves struggle to take many humans seriously who part with this world from old age when an elf would still be in his childhood years. 
+                    During their lifetime an elf will reproduce but a few times. This in turn means that a generation lost to war will take centuries, 
+                    if not millennia to repair. After the rise of human kingdoms and empires the high elves secluded themselves to preserve their race and save it from extinction. 
+                    There are three main types of elves, the high elves, the wood elves and the drow (dark elves).
+                </p>
+                <h3>High Elves</h3>
+                <p>
+                    High elves are the pinnacle of civilization and knowledge, 
+                    their long lifespans enabling them to gather immense knowledge and reach a cultural development unseen anywhere else. 
+                    The mystical land of Isva Alari is said to be beautiful beyond imagining, though few if no other race has ever set foot there. 
+                    High elves are not uncommon in the empire, where they often hold respectable positions in society.
+                </p>
+                <h3>Wood Elves</h3>
+                <p>
+                    East of Ravalon, beyond the dwarves’ mountains, lies the Lyadelle woods. 
+                    There was once the ancient realm of the wood elves, now long gone and but a memory in the oldest of the remaining wood elves. 
+                    The wood elves still present live in fractured tribes who lead nomadic lives in the far reaches of the woodlands. 
+                    There are quite a few wood elves in the empire where they act as upright citizens.
+                </p>
+                <h3>Drow</h3>
+                <p>
+                    The dark elves are a hated race among most of the surface dwelling races. 
+                    Following the great betrayal, where the goddess Llolth betrayed the other gods, the drow took to the underdark. 
+                    There, in the dark tunnels and caves they worship their evil mistress through their matriarch, the matron mother. 
+                    She, with the help of her priestesses, controls the drow population and directs the surface raids to capture more slaves to toil away endlessly in their deep, dark mines.
+                </p>
+                <h3>Half-elves</h3>
+                <p>
+                    As many elves now live in human societies as citizens of their nations, the union of man and elf is not uncommon. 
+                    The resulting offspring of such a union is a half-elf, a combination of the features of both races. 
+                    While they don’t live nearly as long as an elf, they live considerably longer lives than humans. 
+                    As they stand out to both elves and man, they are often seen as humans among elves, and as elves among humans, making it hard for them to truly fit in. 
+                    They are however respected by both human and elf alike, and suffer little to no discrimination.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>
+
+        <!-- Fourth main section of the page -->
+        <section id="dwarves" class="info-content">
+            <div class="text-content right-side">
+                <h2>Dwarves</h2>
+                <p>
+                    The dwarves are an industrious race of short, stout and stubborn individuals. 
+                    The lifespan of a dwarf is long, not seldom reaching up to 500 years. 
+                    Settlements and kingdoms that to humans only exist in history and myth therefore live vividly in the memory of the oldest dwarves. 
+                    They make their homes deep within the mountains, where other races are rarely allowed to enter. 
+                    The exception to this is the city of Kar Boldor, which acts as the dwarves' gate to the rest of the world. 
+                    Each city has their own king, and most of the cities are connected through tunnels. 
+                    Some of these tunnels have decayed and are now connected to the underdark, forcing the dwarves to constantly fight drow and duergar for their right to exist.
+                </p>
+                <h3>Duergar</h3>
+                <p>
+                    The grey dwarves, known as duergar, are a vicious cousin to the dwarves. 
+                    They live in the underdark, building vast cities in the dark caves and tunnels. 
+                    Evil by nature and vicious of temper they are hated on the surface should they ever emerge from their dark caves. 
+                    Whenever a dwarf and duergar meet, it is bound to end in violence as the two races cannot stand the presence of the other.
+                </p>
+            </div>
+            <div class="image-content left-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>
+        <!-- Fifth main section of the page -->
+        <section id="orcs" class="info-content">
+            <div class="text-content left-side">
+                <h2>Orcs</h2>
+                <p>
+                    Orcs are brutish and savage by nature. 
+                    What they lack in brains they make up for in brawn, and orcs are often used as meaty battering rams in monstrous armies or serving evil organisations as muscle. 
+                    They are viewed as monsters by civilization and are unwelcome near settlements, be they human, elvish or dwarvish. 
+                    Orcs from primitive tribes or rowing bands of raiders and instill fear in remote settlers where raids for slaves and food are common.
+                </p>
+                <h3>Half-orcs</h3>
+                <p>
+                    Significantly less common than half-elves, half-orcs may be the result of an orcish raid to a human settlement, 
+                    or the intentional mating of vicious humans with orcs. 
+                    The resulting offspring is less savage and ferocious than an orc, but significantly less calm and poised than a human. 
+                    They do however inherit some of the human’s rationality, and this combined with the brute strength of an orc they make a rather formidable fighter. 
+                    Half-orcs are tolerated in most settlements, but viewed with scepticism and suffer from a fair deal of discrimination. 
+                    To orcs, they are seen as weaklings and half-breeds, often placed in the lowest ranks of their society.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+    </div>
+    <!-- Footer with links to outside sources and copyright -->
+    <footer>
+        <p class="footer-info">Further DnD reading</p>
+        <div class="external-links">
+            <a href="https://dnd.wizards.com/" target="_blank" title="Link to dungeons and dragons homepage">Dungeons and Dragons homepage</a>
+            <a href="http://dndbeyond.com/" target="_blank" title="DnD online gaming">DnD Beyond</a>
+            <a href="http://fantasygrounds.com/" target="_blank" title="Fantasy grounds, plattform for online dnd">Fantasy Grounds</a>
+            <a href="http://roll20.net/" target="_blank" title="Roll20 online plattform for dnd">Roll20</a>
+        </div>
+        <div class="social-media-links">
+            <a href="facebook.com" aria-label="Visit our facebook page" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="twitter.com" aria-label="Visit our twitter page" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram.com" aria-label="Visit our instagram page" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="youtube.com" aria-label="Visit our youtupe page" target="_blank"><i class="fab fa-youtube-square"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2021 Patrik Österljung</p>
+        </div>
+    </footer>
+
+    <!--Font awesome script-->
+    <script src="https://kit.fontawesome.com/d9fbb6b6ff.js" crossorigin="anonymous"></script>
+</body>
+</html>
