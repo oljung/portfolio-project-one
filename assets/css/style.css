@@ -391,6 +391,7 @@ figcaption {
     color: #2F4F4F;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
     
 }
 
