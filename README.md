@@ -33,11 +33,23 @@ As the project moves along development, completed features will be listed here.
 
     - The footer looks the same on every page of the site. It will contain links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
 
+    - Social media links to project social media accounts are also included in the footer to direct the user to our social media.
+
 - __The Iateria page__
 
     - This feature is the first of the main parts of the site and contains information about the continent and its history.
 
     - Contains the subsections continent, history , underdark and magic, reachable via a subsection menu.
+
+- __The races page__
+
+    - This site will give a short presentation about the different races one might expect to find in on the continent of Iateria. It will provide links to further reading on many of the more prominent races.
+
+    - The site will contain subsections for a number of different races, including humans, dwarves, halflings, elves orcs and more.
+
+- __Sign up form__
+
+    This sign up form will allow the user to sign up for a newsletter. At this point there is no database connected to it, so the action is not yet in place. Most of the design for this form was taken from the love running project on the CI course, but adapted to better suite the style of the page in term os coloring and backgrounds. The form has inputs for name and email, both required, as well as a submit button.
 
 ### Features left to implement (near future)
 
@@ -47,21 +59,11 @@ Here a list of all features to be implemented
 
 These pages will all follow the same format and structure, making information easy to find and making them feel intuitive. The page about dwarves will be stuctured the same as the page for orcs, for instance.
 
-- __The races page__
-
-    - This site will give a short presentation about the different races one might expect to find in on the continent of Iateria. It will provide links to further reading on many of the more prominent races.
-
-    - The site will contain subsections for a number of different races, including humans, dwarves, halflings, elves orcs and more.
-
 - __The countries and factions page__
 
     - This feature will give a brief rundown on the different nations, factions and alliances that currently exist on the continent. Links to further reading for many of them will be provided.
 
     - This section will aslo lead to different subsections where additional information on many nations or factions will give the user more knowledge about the world of Iateria.
-
-- __The footer__
-
-    - Social media links to project social media accounts
 
 ### Features left to implement (distant future)
 
@@ -105,6 +107,16 @@ These pages will all follow the same format and structure, making information ea
 
     - Images
         Some issues with sizing, but much was solved when adding the fixed size for main content container, as suggested by mentor.
+
+    - Padding was added to h3 and p elements to create a more clearly distinguished heirarchy on the page and to make it more obvious what text is connected to which header.
+
+- __Races page__
+
+    To implement this page I simply copied the Iateria page and changed all the text/image content. This worked like a charm on the first four sections. The fifth section, an additional section compared to the Iateria page, did not work as intended however. For some reason, this entire section falls outside of the container div, even though the html is clearly inside it. I have yet to find a solution to this problem (2021-07-20)
+
+- __Subestcion menu__
+
+    - This menu was originally placed in the container and part of the main content, but has been moved to the header to make the page layout more intuitive. It has also been given a smaller size than the main menu, both on large and small screens, to clearly indicate that it is a sub-menu.
 
 - __Responsive design__
 
