@@ -8,13 +8,13 @@
 
 body {
     font-family: 'EB Garamond', serif;
-    color: #3a3a3a;
+    color: #2F4F4F;
     background-color: navajowhite;
 }
 /* Font and letter spacing for logo and headings and default coloring*/
 h1, h2, h3, h4 {
     font-family: 'Nanum Gothic', sans-serif;
-    color: #252525;
+    color: #1F3333;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
