@@ -320,6 +320,14 @@ footer a:hover {
     margin-top: 20px;
 }
 
+figcaption {
+    text-align: center;
+    background-color: #1F3333;
+    color: #FFF7EB;
+    font-style: italic;
+    padding: 5px;
+}
+
 /* Sign up form (adapted from CI love running project) */
 
 .form-section {
