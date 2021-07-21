@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iateria Wiki</title>
+</head>
+<body>
+    <!-- Header with logo and nav bar menu -->
+    <header>
+        <a href="index.html">
+            <h1 class="logo">Iateria Wiki</h1>
+        </a>
+        <nav class="menu main-menu">
+            <ul>
+                <li>
+                    <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                </li>
+                <li>
+                    <a href="iateria.html" aria-label="Click here to go to the continent page">Iateria</a>
+                </li>
+                <li>
+                    <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                </li>
+                <li>
+                    <a href="factions.html" aria-label="Click here to go to the fatcions page" class="active">The Factions</a>
+                </li>
+                <li>
+                    <!-- Opens in a new tab for convenience -->
+                    <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                </li>
+                <li>
+                    <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
+        <div class="burger-menu burger-menu-main">
+            <!-- "Hamburger" bar icon -->
+            <a href="#main-menu-hamburger" id="main-menu-hamburger-toggle" class="burger-menu-toggle" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            <!-- Description for menu , displaying active page -->
+            <h2 class="burger-description-main">Factions</h2>
+            <nav id="main-menu-hamburger" class="main-menu-burger" aria-label="Main menu">
+                <!-- Close icon -->
+                <a href="#main-menu-hamburger-toggle" id="main-menu-close" class="burger-menu-close" aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html" aria-label="Click here to go to home page">Home</a>
+                    </li>
+                    <li>
+                        <a href="iateria.html" aria-label="Click here to go to the Iateria page">Iateria</a>
+                    </li>
+                    <li>
+                        <a href="races.html" aria-label="Click here to go to the races page">The Races</a>
+                    </li>
+                    <li>
+                        <a href="factions.html" aria-label="Click here to go to the fatcions page">The Factions</a>
+                    </li>
+                    <li>
+                        <!-- Opens in a new tab for convenience -->
+                        <a href="assets/images/Ravalon-map.png" target="_blank" aria-label="Click here to open the map of Ravalon Empire">Map</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" aria-label="Click here to go to the sign up page">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#main-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
+
+        <!-- Menu for subsections -->
+        <div class="menu sub-menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href=#continent aria-label="Click here to go to continent section">Continent</a>
+                    </li>
+                    <li>
+                        <a href=#history aria-label="Click here to go to the history section">History</a>
+                    </li>
+                    <li>
+                        <a href=#underdark aria-label="Click here to go to the underdark section">Underdark</a>
+                    </li>
+                    <li>
+                        <a href=#magic aria-label="Click here to go to the fatcions page">Magic</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- "Hamburger menu" for smaller screens, from the work of Mark Caron (see README.md for more info) -->
+        <div class="burger-menu burger-menu-sub">
+            <!-- "Hamburger" bar icon -->
+            <a href="#sub-menu-hamburger" id="sub-menu-hamburger-toggle" class="burger-sub-menu-toggle" aria-label="Open subsection menu">
+                <span class="sr-only">Open subsection menu</span>
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </a>
+            <!-- Description for menu , displaying active page -->
+            <h2 class="burger-description-sub">Subsections</h2>
+            <nav id="sub-menu-hamburger" class="sub-menu-burger" aria-label="Subsection menu">
+                <!-- Close icon -->
+                <a href="#sub-menu-hamburger-toggle" id="sub-menu-close" class="burger-sub-menu-close" aria-label="Close subsection menu">
+                    <span class="sr-only">Close subsection menu</span>
+                    <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li>
+                        <a href=#continent aria-label="Click here to go to continent section">Continent</a>
+                    </li>
+                    <li>
+                        <a href=#history aria-label="Click here to go to the history section">History</a>
+                    </li>
+                    <li>
+                        <a href=#underdark aria-label="Click here to go to the underdark section">Underdark</a>
+                    </li>
+                    <li>
+                        <a href=#magic aria-label="Click here to go to the fatcions page">Magic</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#sub-menu-hamburger-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+        </div>
+    </header>
+    <!-- Page content container -->
+    <div class="container">
+
+        <!-- Back to top link -->
+        <div class="back-to-top">
+            <a href=#continent>
+                <h4>Back to top <i class="fas fa-arrow-up"></i></h4>
+            </a>
+        </div>
+        <!-- First main section of the page-->
+        <section id="factions" class="info-content first-section">
+            <div class="text-content left-side">
+                <h2>The Factions</h2>
+                <p>
+                    There are a number of nations and organizations all competing for power and influence. 
+                    Some are large and sprawling nations, other secret orders or crime syndicates operating in the shadows. 
+                    Because of this, conflicts and wars are common enough to offer opportunity for those prepared to take the risk, 
+                    or breed desire for vengeance in those who have suffered.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <figure>
+                    <img src="assets/images/placeholder.jpg" alt="placeholder image">
+                    <figcaption>fig. 1 - Placeholder for continent</figcaption>
+                </figure>
+            </div>
+        </section>
+        <hr>
+        <!-- Second main section of the page -->
+        <section id="ravalon" class="info-content">
+            <div class="text-content right-side">
+                <h2>Ravalon (The Empire)</h2>
+                <p>
+                    The dominant force in the area. Originally a number of smaller, 
+                    feudal nations who joined together in an alliance to counter the invading undead hordes of Kez. 
+                    After the war this alliance formed an empire under the dynasty of Tybalt. 
+                    Through the years Ravalon’s relations with its neighbors worsened, 
+                    as the empire was constantly hungry for new territories. 
+                    When the high elves withdrew to Isva Alari Ravalon field the vacuum of power that emerged. 
+                    Ravalon is ruled by an emperor who relies a lot on the church of Aton (the main god of Ravalon) and its Stormbringers. 
+                    There are many that argue that the church is the true power in Ravalon.
+                </p>
+                <p>
+                    When the emperor dies a new emperor is selected by the nobles and the church. 
+                    If no candidate can gain a majority vote the current emperor's heir will ascend the throne. 
+                    They must be formally elected, but it is common practice that the heir is elected unless there are any obstacles. 
+                    There have been numerous dynasties on the throne of Ravalon.
+                </p>
+                <p>
+                    The current emperor, Tybalt VII, is old and has no heir. 
+                    The nobles and the church have already started to maneuver, 
+                    but no obvious successor has appeared and many claim that when the emperor dies, chaos will erupt.
+                </p>
+            </div>
+            <div class="image-content left-side">
+                <figure>
+                    <img src="assets/images/placeholder.jpg" alt="placeholder image">
+                    <figcaption>Fig. 2 - Placeholder for Ravalon section</figcaption>
+                </figure>
+            </div>
+        </section>
+        <hr>
+        <!-- Third main section of the page -->
+        <section id="Isva Alari" class="info-content">
+            <div class="text-content left-side">
+                <h2>The underdark</h2>
+                <p>
+                    Isva Alari is the homeland of the high elves. They used to act as the protectors of the world,
+                     and their realm once covered nearly the entire world. Several brutal conflicts reduced their population dramatically, 
+                     and as elves reproduce rather slowly it became clear that they were headed for extinction. 
+                     About 3-400 years ago they withdrew to Isva Alari and severed all contact with the rest of the world. 
+                     The triggering factor was that the relations with Ravalon soured. 
+                     Some claim that the elves are planning to reclaim their lost realm and put mankind in its place, 
+                     others mean that they are even weaker than previously thought and that they are trying to hide how broken they really are out of fear of extinction.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>
+
+        <!-- Fourth main section of the page -->
+        <section id="independent" class="info-content">
+            <div class="text-content right-side">
+                <h2>Independent nations </h2>
+                <p>
+                    Although the Empire now controls most of the continent, there are still some nations and groups that have remained independed from the Empire.
+                    Two of the more important of therse are the Free Islands and the Northern Tribes.
+                </p>
+                <h3>The Free Islands</h3>
+                <p>
+                    A name used for the islands to the west of Ravalon that are self-governing. 
+                    Their main source of income is trade and fishing, and in some part piracy. 
+                    Garbuka, one of the islands, is an infamous pirate nest controlled by the Kraken’s Tendrils, the eight mightiest pirates. 
+                    The members of this council sit on their chairs until someone else claims it in a bloody manner.
+                </p>
+                <h3>The Northern Tribes</h3>
+                <p>
+                    North of the empire, close to the cold abyss, you find the home of the warlike northern tribes. 
+                    After losing territories to Ravalon a few decades ago they have become somewhat pacified, as they were overrun by the Stormbringers and the emerald enclave. 
+                    The new generation of warriors however harbour plans to bring the tribes back to their former glory.
+                </p>
+            </div>
+            <div class="image-content left-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>
+
+        <section id="dwarven-kingdoms" class="info-content">
+            <div class="text-content left-side">
+                <h2>The dwarven kingdoms</h2>
+                <p>
+                    A collection of cities under the mountains to the east of Ravalon. 
+                    They are connected by tunnels that run underground, which in places are also connected to the underdark. 
+                    Due to this connection they often fight both drow and duergar to reclaim their ancient halls deep under the mountains. 
+                    All cities have their own king, but there is a high king who has his seat in Valgrum, the largest of the dwarven cities.
+                </p>
+            </div>
+            <div class="image-content right-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>
+
+        <section id="kez" class="info-content">
+            <div class="text-content right-side">
+                <h2>Kez</h2>
+                <p>
+                    A former kingdom that lay to the south of Ravalon in what is now the Kishkan Desert. 
+                    The kingdom mostly exists as ruins buried under the desert sand, and those who try to explore them often encounter undead monsters. 
+                    On the opposite side of the desert there is a city that appears to have survived, but stands empty. 
+                    No one who has entered the nameless city’s walls have ever returned.
+                </p>
+            </div>
+            <div class="image-content left-side">
+                <img src="assets/images/placeholder.jpg" alt="placeholder image">
+            </div>
+        </section>
+        <hr>        
+    </div>
+    <!-- Footer with links to outside sources and copyright -->
+    <footer>
+        <p class="footer-info">Further DnD reading</p>
+        <div class="external-links">
+            <a href="https://dnd.wizards.com/" target="_blank" title="Link to dungeons and dragons homepage">Dungeons and Dragons homepage</a>
+            <a href="http://dndbeyond.com/" target="_blank" title="DnD online gaming">DnD Beyond</a>
+            <a href="http://fantasygrounds.com/" target="_blank" title="Fantasy grounds, plattform for online dnd">Fantasy Grounds</a>
+            <a href="http://roll20.net/" target="_blank" title="Roll20 online plattform for dnd">Roll20</a>
+        </div>
+        <div class="social-media-links">
+            <a href="facebook.com" aria-label="Visit our facebook page" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="twitter.com" aria-label="Visit our twitter page" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram.com" aria-label="Visit our instagram page" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="youtube.com" aria-label="Visit our youtupe page" target="_blank"><i class="fab fa-youtube-square"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2021 Patrik Österljung</p>
+        </div>
+    </footer>
+
+    <!--Font awesome script-->
+    <script src="https://kit.fontawesome.com/d9fbb6b6ff.js" crossorigin="anonymous"></script>
+</body>
+</html>
