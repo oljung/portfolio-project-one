@@ -329,6 +329,11 @@ figcaption {
     padding: 5px;
 }
 
+figcaption a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Sign up form (adapted from CI love running project) */
 
 .form-section {
