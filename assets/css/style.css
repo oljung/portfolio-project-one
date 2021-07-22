@@ -95,7 +95,7 @@ header > a {
 .menu a:hover {
     background-color: #F28F3B;
     padding: 0 10px;
-    size: 110%;
+    font-size: 110%;
     color: #1F3333;
 }
 
@@ -579,7 +579,7 @@ figcaption a {
 
     .main-menu-burger:target, .main-menu-burger[aria-expanded="true"] {
         display: block;
-        right: 10;
+        right: 10px;
         top: 75px;
         outline: none;
         -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
