@@ -14,13 +14,13 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
     - Featured on all pages of the site, the navbar will contain 2 parts: A logo and menu to the main pages of the site, and a sub menu that will be specific to each site and subsite
 
-    [Header with navbar](assets/images/readme-images/header-large.png)
+    ![Header with navbar](assets/images/readme-images/header-large.png)
 
 
     - This feature will allow for easy navigation to the main parts of the sites.
     - Has a collapsable menu by clicking a "burger" icon on smaller screens.
 
-    [Header with navbar for smaller screens](assets/images/readme-images/header-small.png)
+    ![Header with navbar for smaller screens](assets/images/readme-images/header-small.png)
 
 - __Subsection navigation bar__
     - This feature is a "hamburger" icon used to navigate the subsections of a information page on a smaller screen. On larger screens the menu is placed underneath the heading.
