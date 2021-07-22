@@ -126,7 +126,10 @@ As the project moves along development, completed features will be listed here.
 
 ### Unfixed bugs
 
+    **FIXED
     - Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.
+    **FIXED
+    Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
 
 ## Deployment
 
