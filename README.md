@@ -129,16 +129,16 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
 ### Validator testing
 
-    The HTML was tested using this [validator](https://validator.w3.org/) with no errors or warnings for any of the .html files
+The HTML was tested using this [validator](https://validator.w3.org/) with no errors or warnings for any of the .html files
 
-    The CSS was tested using this [validator](https://jigsaw.w3.org/) with 2 errors and 9 warnings. The errors were quickly fixed, they were the simple errors of forgetting the "px" at the end of a size-rule. The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
+The CSS was tested using this [validator](https://jigsaw.w3.org/) with 2 errors and 9 warnings. The errors were quickly fixed, they were the simple errors of forgetting the "px" at the end of a size-rule. The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
 
 ### Unfixed bugs
 
-    **FIXED
-    - Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.
-    **FIXED
-    Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
+**FIXED
+- Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.
+**FIXED
+Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
 
 ## Deployment
 
@@ -147,17 +147,17 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
     - From the source section drop-down menu, select the Master Branch
     - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-    The live link can be found here - https://oljung.github.io/portfolio-project-one/
+The live link can be found here - https://oljung.github.io/portfolio-project-one/
 
 ## Credits
 
-    The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki. 
+The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki. 
 
 ### Content
 
-    All information on the Iateria, Races and Factions pages are the work of Joakim Linde, written for use in his DnD campains in Swedish and translated by me for this project. All credit for the amazing content goes to him.
+All information on the Iateria, Races and Factions pages are the work of Joakim Linde, written for use in his DnD campains in Swedish and translated by me for this project. All credit for the amazing content goes to him.
 
 ### Media
 
-    Images used on this site are from these open source galleries: [pixabay](https://pixabay.com/), [unsplash](https://unsplash.com/) and [istock](https://www.istockphoto.com/en).
+Images used on this site are from these open source galleries: [pixabay](https://pixabay.com/), [unsplash](https://unsplash.com/) and [istock](https://www.istockphoto.com/en).
 
