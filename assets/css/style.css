@@ -310,6 +310,10 @@ footer a:hover {
     padding-left: 10px;
 }
 
+.page-intro {
+    width: 100%;
+}
+
 .image-content {
     width: 40%;
     margin-top: 30px;
