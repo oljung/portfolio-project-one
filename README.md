@@ -8,11 +8,7 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
 ## Features
 
-This wiki consists of a landing page, with basic information about what Iateria is, and what the user can explore further in the site.
-
 ### Existing features
-
-As the project moves along development, completed features will be listed here.
 
 - __Navigation bar__
 
@@ -106,6 +102,7 @@ As the project moves along development, completed features will be listed here.
 - __Races page__
 
     To implement this page I simply copied the Iateria page and changed all the text/image content. This worked like a charm on the first four sections. The fifth section, an additional section compared to the Iateria page, did not work as intended however. For some reason, this entire section falls outside of the container div, even though the html is clearly inside it. I have yet to find a solution to this problem (2021-07-20) EDIT: Issue solved by adding the rule "overflow: auto;" to the container class (2021-07-21)
+    When adding images to the races and factions pages, I noticed that I needed to add a max hight to pictures, as some pictures would otherwise take up to much space of they were "narrow" in their size ratio. In order to keep the ratio of the image intact I also added the object-fit: contain; rule to all iamges.
 
 - __Factions page__
 
@@ -124,6 +121,8 @@ As the project moves along development, completed features will be listed here.
 
 ### Validator testing
 
+    
+
 ### Unfixed bugs
 
     **FIXED
@@ -135,8 +134,13 @@ As the project moves along development, completed features will be listed here.
 
 ## Credits
 
+    The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki. 
+
 ### Content
+
+    All information on the Iateria, Races and Factions pages are the work of Joakim Linde, written for use in his DnD campains in Swedish and translated by me for this project. All credit for the amazing content goes to him.
 
 ### Media
 
+    Images used on this site are from these open source galleries: [pixabay](https://pixabay.com/), [unsplash](https://unsplash.com/) and [istock](https://www.istockphoto.com/en).
 
