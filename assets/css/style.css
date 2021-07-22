@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 
 .container {
     background-color: #FFF7EB;
-    width: 1200px;
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #1F3333;
@@ -417,7 +417,7 @@ figcaption {
     }
 
     .container {
-        width: 800px;
+        width: 760px;
     }
 
     .logo {
@@ -716,7 +716,7 @@ figcaption {
     }
     
     .container{
-        width: 360px;
+        width: 340px;
     }
 
     .flex-container {
