@@ -323,6 +323,8 @@ footer a:hover {
     width: 100%;
     height: auto;
     margin-top: 20px;
+    max-height: 350px;
+    object-fit: contain;
 }
 
 .elven-city {
