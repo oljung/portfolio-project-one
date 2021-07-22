@@ -80,6 +80,8 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
     The same method used for main menu collapsable for smaller screens was used for subsection menu as well. The code then again had to be adapted to suite the new menu, classes renamed and the css-code changed. This resulted in some testing and bugfixing but the experience of the main menu helped and it was over all a success.
 
+    At the very end of the project, when running the validators I noticed that the subsetion menu were at the wrong side of the screen. It took me a while to find what rule put it on the left side. It was the .sub-menu-burger rule of left:10; that placed it there. Removing that rule put it in the correct place.
+
 - __Landing page__
 
     After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped. For the main part of the ladning page, a flex box display was used. I followed a tutorial found [here](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on w3s and adapted it to suite my needs. Above the 3 part section there is an information about hte site, simply a paragraph with slightly larger font size and a margin to separate it from the hero image. It took some testing to get the flex box to display the way i wanted, for the "justfity-content: space-between; to work i needed to remove the width of the images. Further testing will continue (written 2021-07-12) to find out if that was the issue.
@@ -121,7 +123,9 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
 ### Validator testing
 
-    
+    The HTML was tested using this [validator](https://validator.w3.org/) with no errors or warnings for any of the .html files
+
+    The CSS was tested using this [validator](https://jigsaw.w3.org/) with 2 errors and 9 warnings. The errors were quickly fixed, they were the simple errors of forgetting the "px" at the end of a size-rule. The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
 
 ### Unfixed bugs
 
