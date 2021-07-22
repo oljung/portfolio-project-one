@@ -136,6 +136,13 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 
 ## Deployment
 
+   - The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab and select the "Pages" page
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+    The live link can be found here - https://oljung.github.io/portfolio-project-one/
+
 ## Credits
 
     The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki. 
