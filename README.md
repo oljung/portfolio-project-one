@@ -25,6 +25,12 @@ The Iateria Wiki will be useful for players about to engage in a role playing ad
 - __Subsection navigation bar__
     - This feature is a "hamburger" icon used to navigate the subsections of a information page on a smaller screen. On larger screens the menu is placed underneath the heading.
 
+    ![navbar with subsection menu large screen](assets/images/readme-images/subsection-large.png)
+
+    For smaller screens:
+
+    ![navbar with subsection small screen](assets/images/readme-images/subsection-small.png)
+
 - __Landing Page__
 
     - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
