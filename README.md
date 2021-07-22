@@ -47,23 +47,16 @@ As the project moves along development, completed features will be listed here.
 
     - The site will contain subsections for a number of different races, including humans, dwarves, halflings, elves orcs and more.
 
-- __Sign up form__
-
-    This sign up form will allow the user to sign up for a newsletter. At this point there is no database connected to it, so the action is not yet in place. Most of the design for this form was taken from the love running project on the CI course, but adapted to better suite the style of the page in term os coloring and backgrounds. The form has inputs for name and email, both required, as well as a submit button.
-
-### Features left to implement (near future)
-
-Here a list of all features to be implemented
-
-### Information pages
-
-These pages will all follow the same format and structure, making information easy to find and making them feel intuitive. The page about dwarves will be stuctured the same as the page for orcs, for instance.
-
-- __The countries and factions page__
+- __The factions page__
 
     - This feature will give a brief rundown on the different nations, factions and alliances that currently exist on the continent. Links to further reading for many of them will be provided.
 
     - This section will aslo lead to different subsections where additional information on many nations or factions will give the user more knowledge about the world of Iateria.
+
+- __Sign up form__
+
+    This sign up form will allow the user to sign up for a newsletter. At this point there is no database connected to it, so the action is not yet in place. Most of the design for this form was taken from the love running project on the CI course, but adapted to better suite the style of the page in term os coloring and backgrounds. The form has inputs for name and email, both required, as well as a submit button.
+
 
 ### Features left to implement (distant future)
 
@@ -112,7 +105,11 @@ These pages will all follow the same format and structure, making information ea
 
 - __Races page__
 
-    To implement this page I simply copied the Iateria page and changed all the text/image content. This worked like a charm on the first four sections. The fifth section, an additional section compared to the Iateria page, did not work as intended however. For some reason, this entire section falls outside of the container div, even though the html is clearly inside it. I have yet to find a solution to this problem (2021-07-20)
+    To implement this page I simply copied the Iateria page and changed all the text/image content. This worked like a charm on the first four sections. The fifth section, an additional section compared to the Iateria page, did not work as intended however. For some reason, this entire section falls outside of the container div, even though the html is clearly inside it. I have yet to find a solution to this problem (2021-07-20) EDIT: Issue solved by adding the rule "overflow: auto;" to the container class (2021-07-21)
+
+- __Factions page__
+
+    Implementing the factions page was very straight forward, as most of the bugs that appeared previously were sorted, and no additional issues arose when adding the factions page. The only thing left to do was adjust the menues as they have different lengths, resulting in padding and margin issues. This was easily solved by adding additional classes and target those in the style.css.
 
 - __Subestcion menu__
 
@@ -128,6 +125,8 @@ These pages will all follow the same format and structure, making information ea
 ### Validator testing
 
 ### Unfixed bugs
+
+    - Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.
 
 ## Deployment
 
