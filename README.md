@@ -6,6 +6,58 @@ The site will contain useful information about the continent of Iateria, the var
 
 The Iateria Wiki will be useful for players about to engage in a role playing adventure set in the world of Iateria, for dungeon masters looking for inspiration for at plot or for experienced players of the world wanting to read up on a concept or place of interest they encounter when exploring the wonderous locations of Iateria.
 
+The site was built as a part of a Diploma in software development, held by Code Institute and is in English for the pupose of assessment and mentoring. The site may be translated in to Swedish at a later date, as many in the target audience are Swedish.
+
+[Visit the deployed site](https://oljung.github.io/portfolio-project-one/index.html)
+
+## 1. User Experience
+
+### 1.1 Project introduction
+
+The website is designed to be used by a game master who created his own fantasy role playing game setting. The site will provide a platform for that person to share information about the setting in an ordered and organized way. The site will also aim to inspire others to try out the game or to take up the reins as a game master (dungeon master).
+
+### 1.2 Design guidelines
+
+The user visiting this site will likely have an idea of what role playing games are, and what to expect. As this is a fantasy setting, a color scheme was selected to represent a fantasy themed feeling, using green/grey shades and off-whites and yellow to represent old and faded documents. The site aims to inspire as well as inform, so images to represent the content are chosen to bring life to the content.
+
+### 1.3 Project goals
+
+- Provide the user with information about the fantsy setting in an order and structured manner
+
+- Inspire users to explore the setting in a role playing game
+
+- Provide information on further reading about Dungeons and Dragons, the game the setting is written for
+
+### 1.4 Target audience
+
+The main audience for the site are players of the game who are already in contact with the game master and need a site with all information about the game setting in one place for easy acces. The site is also suitable for other game masters who want a setting for their own campaigns, or inspiration for creating their own setting. Users new to the game may find the site inspiring and wanting to try out playing the game, so information about the game itself should be available through link. The two major categories of users are:
+
+- Players in one of the game masters games
+Will visit the site for information about specific part of the setting. This user will want to stay up to date with any changed/added content.
+**Needs:** A menu that is intuitive and easy to navigate, with information organized in a structured and logical way. A way to get notifications about changes.
+**Goal:** Have information structured in a way that makes it easy for the user to find, and provide menues to subsections. Have some sort of notification of changes to content.
+**How:** Organize page content logically, so that topics can be found intuitively on each page. Design menues that are easy to use and clearly directs user to subesctions as well. To solve the ability to stay up to date with changes, a sign up form for newsletter will be provided
+
+- Game masters looking for a setting
+Will want information about what to find on the page, giving them a grasp on how much content the setting has and then an easy way to navigate.
+**Needs:** A landing page giving a short information about what the site is about and what to find on the site, and good navigation.
+**Goal:** Use landing page to give the user quick inforamtion about what to find on the page.
+**How:** Design landing page to provide a short information about the page centered to draw attention to it.
+
+### 1.5 User stories
+
+- As an ownder, I want to quickly inform user of what to expect on my site.
+- As an ownder, I want to provide information about the content in a logical and structured way.
+- As an ownder, I want to provide ways for users to stay up to date with any changes I make to the content.
+- As an ownder, I want to provide the users with ways to find additional reading about teh role playing where the setting is used.
+- As a user, I want to find information about a specific topic that i need to read more about.
+- As a user, I want to find inspiration for creating my own fantasy setting.
+- As a user, I want to stay up to date with any changes made.
+- As a user, I want to learn more about Iateria and possibly use it for my own games.
+- As a user, I want to read about a faction in the setting for creating a character.
+- As a user, I want to read about races in the setting to know what my options are when creating a character.
+- As a user, I want to find ways to learn more about role playing games in general.
+
 ## Features
 
 ### Existing features
