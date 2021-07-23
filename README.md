@@ -32,16 +32,16 @@ The user visiting this site will likely have an idea of what role playing games 
 
 The main audience for the site are players of the game who are already in contact with the game master and need a site with all information about the game setting in one place for easy acces. The site is also suitable for other game masters who want a setting for their own campaigns, or inspiration for creating their own setting. Users new to the game may find the site inspiring and wanting to try out playing the game, so information about the game itself should be available through link. The two major categories of users are:
 
-- Players in one of the game masters games
-Will visit the site for information about specific part of the setting. This user will want to stay up to date with any changed/added content.
-**Needs:** A menu that is intuitive and easy to navigate, with information organized in a structured and logical way. A way to get notifications about changes.
-**Goal:** Have information structured in a way that makes it easy for the user to find, and provide menues to subsections. Have some sort of notification of changes to content.
+- Players in one of the game masters games<br>
+Will visit the site for information about specific part of the setting. This user will want to stay up to date with any changed/added content.<br>
+**Needs:** A menu that is intuitive and easy to navigate, with information organized in a structured and logical way. A way to get notifications about changes.<br>
+**Goal:** Have information structured in a way that makes it easy for the user to find, and provide menues to subsections. Have some sort of notification of changes to content.<br>
 **How:** Organize page content logically, so that topics can be found intuitively on each page. Design menues that are easy to use and clearly directs user to subesctions as well. To solve the ability to stay up to date with changes, a sign up form for newsletter will be provided
 
-- Game masters looking for a setting
-Will want information about what to find on the page, giving them a grasp on how much content the setting has and then an easy way to navigate.
-**Needs:** A landing page giving a short information about what the site is about and what to find on the site, and good navigation.
-**Goal:** Use landing page to give the user quick inforamtion about what to find on the page.
+- Game masters looking for a setting<br>
+Will want information about what to find on the page, giving them a grasp on how much content the setting has and then an easy way to navigate.<br>
+**Needs:** A landing page giving a short information about what the site is about and what to find on the site, and good navigation.<br>
+**Goal:** Use landing page to give the user quick inforamtion about what to find on the page.<br>
 **How:** Design landing page to provide a short information about the page centered to draw attention to it.
 
 ### 1.5 User stories
