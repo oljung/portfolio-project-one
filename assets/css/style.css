@@ -390,7 +390,7 @@ figcaption a {
 
 .signup-form > h2, .signup-form > h4 {
     margin: 20px 0;
-    color: #1F3333;
+    color: #FFF7EB;
 }
 
 .signup-form h4 {
@@ -398,7 +398,7 @@ figcaption a {
 }
 
 .signup-form > label {
-    color: #1F3333;
+    color: #FFF7EB;
     font-weight: 600;
 }
 
