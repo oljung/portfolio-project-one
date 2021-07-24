@@ -102,27 +102,27 @@ Will want information about what to find on the page, giving them a grasp on how
 
     - The landing page has a hero image with a cover text greeting the user, and the image itself is meant to set the tone of the page, the old documents giving the ancient library theme. 
 
-    ![hero image with cover text](assets/images/readme-images/hero-image-readme)
+    ![hero image with cover text](assets/images/readme-images/hero-image-readme.png)
 
     - The center of the page then gives the user a short information about what Iateria is, and then the main content - what to find on the site.
 
-    ![main content of landing page](assets/images/readme-images/main-content)
+    ![main content of landing page](assets/images/readme-images/main-content.png)
 
 - __The footer__
 
     - The footer looks the same on every page of the site. It contains links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
 
     - Social media links to project social media accounts are also included in the footer to direct the user to our social media.
-    ![image of footer for large screens](assets/images/readme-images/footer-large)
+    ![image of footer for large screens](assets/images/readme-images/footer-large.png)
     - The footer has a different layout on smaller screens, working more vertically than horizontally.
-    ![image of footer for small screens](assets/images/readme-images/footer-small)
+    ![image of footer for small screens](assets/images/readme-images/footer-small.png)
 
--__Info content__
+- __Info content__
     - All info content pages follow the same design, with sections made up of text-content and image content. On large screens the text and image are placed next to each other, alternating sides with each section. On smaller screens, they are placed vertically.<br>
     Large screen<br>
-    ![info content on large screen](assets/images/readme-images/info-large)
+    ![info content on large screen](assets/images/readme-images/info-large.png)
     Small screen <br>
-    ![info content on small screen](assets/images/readme-images/info-small)
+    ![info content on small screen](assets/images/readme-images/info-small.png)
 
 - __The Iateria page__
 
