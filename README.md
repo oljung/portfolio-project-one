@@ -145,6 +145,7 @@ Will want information about what to find on the page, giving them a grasp on how
 - __Sign up form__
 
     This sign up form will allow the user to sign up for a newsletter. At this point there is no database connected to it, so the action is not yet in place. Most of the design for this form was taken from the love running project on the CI course, but adapted to better suite the style of the page in term os coloring and backgrounds. The form has inputs for name and email, both required, as well as a submit button.
+    ![image of sign up form](assets/images/readme-images/sign-up.png)
 
 
 ### 2.2 Features left to implement
