@@ -58,6 +58,21 @@ Will want information about what to find on the page, giving them a grasp on how
 - As a user, I want to read about races in the setting to know what my options are when creating a character.
 - As a user, I want to find ways to learn more about role playing games in general.
 
+### 1.6 Design
+
+- Color scheme
+    - The main color scheme is "dark slate grey" (#2F4F4F) and old lace (#FFF7EB) with a darker version of dark slate grey (#1F3333) and an orange color (#F28F3B) for variation. The background of the body (container margin) was given navajo white to keep to the theme of yellowy whites for the "old document" feeling.
+
+- Typography
+    - For the body text EB Garamond was used, as distinct and easy to read font. For the headers Nanum Gothic was chosen as it goes well with EB Garamond and has thinner but still distinct letters. A letter specing was used for headers to give them slightly more weight.
+
+- Images
+    - For the landing page an image of tattered and torn documents gives the feeling of old and ancient, to go with the fantasy theme. The other images on the site is there to make the user associate with both warriors and magicians, both common in fantasy.
+    - Images for the pages are chosen to go with the topic of the text, and all major sections of the page has at least one image connected to it to bring life to the topic.
+
+- Wireframes
+    - Open this [pdf](assets/pdf/wireframe.pdf) to view the wireframes. Some changes were then made in the project, to improve readability and cohesiveness of the site.
+
 ## Features
 
 ### Existing features
