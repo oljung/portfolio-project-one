@@ -73,9 +73,9 @@ Will want information about what to find on the page, giving them a grasp on how
 - Wireframes
     - Open this [pdf](assets/pdf/wireframe.pdf) to view the wireframes. Some changes were then made in the project, to improve readability and cohesiveness of the site.
 
-## Features
+## 2. Features
 
-### Existing features
+### 2.1 Existing features
 
 - __Navigation bar__
 
@@ -100,15 +100,29 @@ Will want information about what to find on the page, giving them a grasp on how
 
 - __Landing Page__
 
-    - This feature will greet the user with an image explaining the purpose of the site, as well as what to expect on it.
+    - The landing page has a hero image with a cover text greeting the user, and the image itself is meant to set the tone of the page, the old documents giving the ancient library theme. 
 
-    - The main parts of the site will be displayed and given short information. These small infomartion segments will also contain a clickable link. This section will be divided into three parts with images to the left and right, and text in the center.
+    ![hero image with cover text](assets/images/readme-images/hero-image-readme)
+
+    - The center of the page then gives the user a short information about what Iateria is, and then the main content - what to find on the site.
+
+    ![main content of landing page](assets/images/readme-images/main-content)
 
 - __The footer__
 
-    - The footer looks the same on every page of the site. It will contain links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
+    - The footer looks the same on every page of the site. It contains links to some of the sources referenced on the site, such as Wizards of the Coast (the company behind DnD) as well as where to find many of the rule books mentioned on the site.
 
     - Social media links to project social media accounts are also included in the footer to direct the user to our social media.
+    ![image of footer for large screens](assets/images/readme-images/footer-large)
+    - The footer has a different layout on smaller screens, working more vertically than horizontally.
+    ![image of footer for small screens](assets/images/readme-images/footer-small)
+
+-__Info content__
+    - All info content pages follow the same design, with sections made up of text-content and image content. On large screens the text and image are placed next to each other, alternating sides with each section. On smaller screens, they are placed vertically.<br>
+    Large screen<br>
+    ![info content on large screen](assets/images/readme-images/info-large)
+    Small screen <br>
+    ![info content on small screen](assets/images/readme-images/info-small)
 
 - __The Iateria page__
 
@@ -118,22 +132,22 @@ Will want information about what to find on the page, giving them a grasp on how
 
 - __The races page__
 
-    - This site will give a short presentation about the different races one might expect to find in on the continent of Iateria. It will provide links to further reading on many of the more prominent races.
+    - This site gives a short presentation about the different races one might expect to find on the continent of Iateria.
 
-    - The site will contain subsections for a number of different races, including humans, dwarves, halflings, elves orcs and more.
+    - The site also contains subsections for a number of different races, including humans, dwarves, elves and orcs.
 
 - __The factions page__
 
-    - This feature will give a brief rundown on the different nations, factions and alliances that currently exist on the continent. Links to further reading for many of them will be provided.
+    - This feature gives a brief rundown on the different nations, factions and alliances that currently exist on the continent.
 
-    - This section will aslo lead to different subsections where additional information on many nations or factions will give the user more knowledge about the world of Iateria.
+    - This page has different subsections where additional information on many nations or factions will give the user more knowledge about the world of Iateria.
 
 - __Sign up form__
 
     This sign up form will allow the user to sign up for a newsletter. At this point there is no database connected to it, so the action is not yet in place. Most of the design for this form was taken from the love running project on the CI course, but adapted to better suite the style of the page in term os coloring and backgrounds. The form has inputs for name and email, both required, as well as a submit button.
 
 
-### Features left to implement (distant future)
+### 2.2 Features left to implement
 
 - __Search function__
 
