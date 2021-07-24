@@ -119,9 +119,9 @@ Will want information about what to find on the page, giving them a grasp on how
 
 - __Info content__
     - All info content pages follow the same design, with sections made up of text-content and image content. On large screens the text and image are placed next to each other, alternating sides with each section. On smaller screens, they are placed vertically.<br>
-    Large screen<br>
+    Large screen
     ![info content on large screen](assets/images/readme-images/info-large.png)
-    Small screen <br>
+    Small screen
     ![info content on small screen](assets/images/readme-images/info-small.png)
 
 - __The Iateria page__
