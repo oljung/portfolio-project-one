@@ -198,6 +198,8 @@ Will want information about what to find on the page, giving them a grasp on how
 1. [tinypng](https://tinypng.com/)
     - Used to change image file size for shorter loading times without quiality loss.
 
+1. [contrast tester](https://webaim.org/resources/contrastchecker/)
+    - The Webaim contrast tester eas used to check if contrast was good enough to display text on the selected background.
 ## 4. Testing
 
 ### 4.1 Developmen process
@@ -268,16 +270,30 @@ The HTML was tested using this [validator](https://validator.w3.org/) with no er
 
 - [Sign up page](assets/images/readme-images/valid-signup.png)
 
-The CSS was tested using this [validator](https://jigsaw.w3.org/) with 2 errors and 9 warnings. The errors were quickly fixed, they were the simple errors of forgetting the "px" at the end of a size-rule. The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
+The CSS was tested using this [validator](https://jigsaw.w3.org/) The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
 
 - [CSS validation result](assets/images/readme-images/valid-css.png)
 
-### 4.2 Unfixed bugs
+
+### 4.2 Responsiveness and functionality
+
+#### 4.2.1 Responsiveness
+The site was tested using responsivechecker.com (see technologies used) for screen sized ranging from 360px to 1900px and was fully functional and responsive on all of them.
+
+#### 4.2.2 Browser compability
+The site runs euqally satisfactory on Chrome, Firefox IE and Edge. 
+
+#### 4.2.3 Contrast testing
+- #2F4F4F as background with #FFF7EB as text or reversed passed on all tests with contrast ratio of 8.39
+- #1F3333 on #FFF7EB passed all tests with contrast ratio of 12.1.
+
+### 4.3 Unfixed bugs
 
 **FIXED
 - Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.<br>
 **FIXED
 Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
+
 
 ## 5. Deployment
 
