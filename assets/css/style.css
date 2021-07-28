@@ -215,7 +215,7 @@ footer {
     height: 150px;
     clear: both;
     padding-top: 20px;
-    position: relative;
+    position: absolute;
 }
 
 .external-links {
