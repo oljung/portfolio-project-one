@@ -162,6 +162,39 @@ Will want information about what to find on the page, giving them a grasp on how
 
     - This feature requires tech outside of the scope for this project
 
+## 3. Technologies Used
+
+### 3.1 Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### 3.2 Frameworks, Libraries and Programs Used
+
+1. [Balsamiq](https://balsamiq.com/)
+    - Balsamiq was used to create a wireframe during the design process.
+
+1. [GitPod](https://gitpod.io)
+    - GitPod was the IDE used to develop the site.
+
+1. [GitHub](https://github.com/)
+    - GitHub was used to store the project code and to deploy the site using GitHub pages.
+
+1. [Google fonts](https://fonts.google.com/)
+    - Google fonts was used to compare fonts and find suitable fonts that go well together.
+
+1. [Font Awesome](https://fontawesome.com/)
+    - Font awesome was used for symbols to add flavor to the site, and usaed for social media links.
+
+1. [HTML validator](https://validator.w3.org/#validate_by_input)
+    - Provided by W3C and used to validate the html on every page.
+
+1. [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Provided by W3C and used to validate the sites css.
+
+1. [Responsive design checker](https://www.responsivedesignchecker.com/)
+    - Used to confirm responsiveness on different devices.
+
 ## Testing
 
 - __nav bar__
