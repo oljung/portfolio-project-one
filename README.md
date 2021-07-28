@@ -195,9 +195,15 @@ Will want information about what to find on the page, giving them a grasp on how
 1. [Responsive design checker](https://www.responsivedesignchecker.com/)
     - Used to confirm responsiveness on different devices.
 
-## Testing
+1. [tinypng](https://tinypng.com/)
+    - Used to change image file size for shorter loading times without quiality loss.
 
-- __nav bar__
+## 4. Testing
+
+### 4.1 Developmen process
+This section vill detail how each part of the site was implemented and tested during development to give an insight to have the site took form. A summary of testing can be found further down.
+
+- __Nav bar__
 
     The navbar was positioned correctly from the first test, however it became clear that more space was needed between each link. The styling went as intended, with the default styling removed and color and font of the site applied. The active page was given a background color and different text color, and after testing I decided to add some padding to the active class, making the background color cover some area around the text as well. The same style was then applied to the hover pseudo class, which also had its font increased in size to make the link "pop out" when hovered over.
 
@@ -248,20 +254,32 @@ Will want information about what to find on the page, giving them a grasp on how
     After meeting with mentor I got a lot of suggestions on how to align the content properly using paddings, and on the information pages padding text relating to different sections to make it clearer what belongs the what. I was also notified of some hierarchy issues on the landing page, sorted using some additional headings.
 
 
-### Validator testing
+### 4.1 Validator testing
 
 The HTML was tested using this [validator](https://validator.w3.org/) with no errors or warnings for any of the .html files
 
+- [Index page](assets/images/readme-images/valid-index.png)
+
+- [Iateria page](assets/images/readme-images/valid-iateria.png)
+
+- [Races page](assets/images/readme-images/valid-races.png)
+
+- [Factions page](assets/images/readme-images/valid-factions.png)
+
+- [Sign up page](assets/images/readme-images/valid-signup.png)
+
 The CSS was tested using this [validator](https://jigsaw.w3.org/) with 2 errors and 9 warnings. The errors were quickly fixed, they were the simple errors of forgetting the "px" at the end of a size-rule. The 9 warnings are all from the part of the hamburger nav bar menues where I followed a tutorial. I decided to keep that code as is, as the code runs ands the nav bar works. When going through the validator code I also noticed that the subsection menu was placed at the wrong side, see nav bar for more info.
 
-### Unfixed bugs
+- [CSS validation result](assets/images/readme-images/valid-css.png)
+
+### 4.2 Unfixed bugs
 
 **FIXED
-- Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.
+- Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.<br>
 **FIXED
 Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
 
-## Deployment
+## 5. Deployment
 
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
         - In the GitHub repository, navigate to the Settings tab and select the "Pages" page
