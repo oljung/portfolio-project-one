@@ -87,6 +87,10 @@ header > a {
     font-size: 100%;
 }
 
+.factions-menu {
+    margin-right: 18px;
+}
+
 .menu .active {
     background-color: #F7AE6E;
     padding: 0 10px;
