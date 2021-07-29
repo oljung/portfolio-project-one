@@ -459,6 +459,10 @@ figcaption a {
         margin-top: 28px;
     }
 
+    .burger-menu-race {
+        margin-right: 35px;
+    }
+
     .burger-menu-sub {
         float: right;
         display: flex;
