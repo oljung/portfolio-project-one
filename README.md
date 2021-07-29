@@ -49,7 +49,7 @@ Will want information about what to find on the page, giving them a grasp on how
 - As an ownder, I want to quickly inform user of what to expect on my site.
 - As an ownder, I want to provide information about the content in a logical and structured way.
 - As an ownder, I want to provide ways for users to stay up to date with any changes I make to the content.
-- As an ownder, I want to provide the users with ways to find additional reading about teh role playing where the setting is used.
+- As an ownder, I want to provide the users with ways to find additional reading about the role playing where the setting is used.
 - As a user, I want to find information about a specific topic that i need to read more about.
 - As a user, I want to find inspiration for creating my own fantasy setting.
 - As a user, I want to stay up to date with any changes made.
@@ -219,9 +219,9 @@ This section vill detail how each part of the site was implemented and tested du
 
 - __Landing page__
 
-    After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped. For the main part of the ladning page, a flex box display was used. I followed a tutorial found [here](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on w3s and adapted it to suite my needs. Above the 3 part section there is an information about hte site, simply a paragraph with slightly larger font size and a margin to separate it from the hero image. It took some testing to get the flex box to display the way i wanted, for the "justfity-content: space-between; to work i needed to remove the width of the images. Further testing will continue (written 2021-07-12) to find out if that was the issue.
+    After som issues with hero image and finding one that fit both feeling of the page and was large enough, I decided on crumbled pages to give it an "old document" feeling. The covertext proved a bit troublesome, requiring multible adjustments and refeshes using dev tools before the text was aligned according to my wishes and spaced out in the box. The box itself was rather troublesome to place, as I wanted it centered. I found a solution on stack overflow, [here](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div), which helped alot. It is the "Responsive Solution" post that helped. For the main part of the ladning page, a flex box display was used. I followed a tutorial found [here](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on w3s and adapted it to suite my needs. Above the 3 part section there is an information about hte site, simply a paragraph with slightly larger font size and a margin to separate it from the hero image. It took some testing to get the flex box to display the way i wanted, for the "justfity-content: space-between; to work i needed to remove the width of the div containing images.
 
-    When replacing placeholder images with the correct once the entire site bugged out. This was solved by tagetting the images and setting their sizes to inherit from parent element, whose size is controlled by the flexbox display. This rendered teh images to display correctly down to a size of 1200px where responsive design will take over.
+    When replacing placeholder images with the correct once the entire site bugged out. This was solved by tagetting the images and setting their sizes to inherit from parent element, whose size is controlled by the flexbox display. This rendered the images to display correctly down to a size of 1200px where responsive design will take over.
 
 - __Footer__
 
@@ -308,7 +308,7 @@ Solution: Adjust width of container div to be somewhat less wide, removing the i
 - As an ownder, I want to provide ways for users to stay up to date with any changes I make to the content.
     - Both the nav bar and landing page main content has a link to the sign up page, where a form will let the user sign up for a news letter.
 
-- As an ownder, I want to provide the users with ways to find additional reading about teh role playing where the setting is used.
+- As an ownder, I want to provide the users with ways to find additional reading about the role playing where the setting is used.
     - The footer contains links to further reading about dungeons and dragons, as well as sites providing resources for online role play gaming.
 
 - As a user, I want to find information about a specific topic that i need to read more about.
@@ -336,18 +336,43 @@ Solution: Adjust width of container div to be somewhat less wide, removing the i
 
 ## 5. Deployment
 
-   - The site was deployed to GitHub pages. The steps to deploy are as follows:
-        - In the GitHub repository, navigate to the Settings tab and select the "Pages" page
-        - From the source section drop-down menu, select the Master Branch
-        - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+### 5.1 GutHup Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. Login to [GitHub](https://github.com/) and go to the GitHub repository.
+1. In the GitHub repository, navigate to the Settings tab and select the "Pages" options to the left.
+1. From the source section drop-down menu, select the Master Branch
+1. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://oljung.github.io/portfolio-project-one/
 
+### 5.2 Make a clone
+To clone the repository to make a local copy of it, follow these steps:
+1. Login to [GitHub](https://github.com/) and locate the [repository](https://github.com/oljung/portfolio-project-one)
+1. Under the repository name, click "Clone or download"
+1. To clone the repository using HTTPS copy the link under "clone with HTTPS"
+1. Open Git Bash
+1. Change directory to where you want the clone to be saved
+1. Use the command "git clone" and then paste the url you copied from step 3
+```
+$ git clone https://github.com/oljung/portfolio-project-one
+```
+1. Your clone will now be saved, and any commits will be saved to your new repository
+
 ## Credits
 
-The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki. 
+### Code
+
+- Collapsable navbar
+    - This was an adaptation of the work of [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793)
+- Centered div
+    - How to center a single div inside a parent element was found on [stack overflow](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div)
+- Flex-box
+    - A [tutorial](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on how flex-box works was used to handle som of the page content
 
 ### Content
+
+The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki.<br><br>
 
 All information on the Iateria, Races and Factions pages are the work of Joakim Linde, written for use in his DnD campains in Swedish and translated by me for this project. All credit for the amazing content goes to him.
 
