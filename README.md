@@ -278,10 +278,10 @@ The CSS was tested using this [validator](https://jigsaw.w3.org/) The 9 warnings
 ### 4.2 Responsiveness and functionality
 
 #### 4.2.1 Responsiveness
-The site was tested using responsivechecker.com (see technologies used) for screen sized ranging from 360px to 1900px and was fully functional and responsive on all of them.
+The site was tested using responsivechecker.com (see technologies used) for screen sized ranging from 360px to 1900px and was fully functional and responsive on all of them. The only issue found was the the collapsable menues are slightly out of alignment by a few pixels on some of the mobile screen widths.
 
 #### 4.2.2 Browser compability
-The site runs euqally satisfactory on Chrome, Firefox, IE and Edge. 
+The site runs euqally satisfactory on Chrome, Firefox, IE, Edge and Safari. 
 
 #### 4.2.3 Contrast testing
 - #2F4F4F as background with #FFF7EB as text or reversed passed on all tests with contrast ratio of 8.39
@@ -294,6 +294,8 @@ The site runs euqally satisfactory on Chrome, Firefox, IE and Edge.
 - Issue with screen scrolling on horizontal axis on some of the smaller screens. I have looked at all the page content to try to find which element that is too wide and causes this issue, but have been unable to find it. it is really bugging me out, pardon the pun, and as of yet the problem is eluding me.<br>
 **FIXED
 Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
+
+- When viewed on a mobile device, all pages leave i thin slice of the body color under the footer. This line does not show up using the inspector on a desktop screen, and I have been unable to find a solution for the problem. 
 
 ### 4.4 Testing user Stories
 
