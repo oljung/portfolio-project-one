@@ -370,6 +370,9 @@ $ git clone https://github.com/oljung/portfolio-project-one
 - Flex-box
     - A [tutorial](https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content) on how flex-box works was used to handle som of the page content
 
+- README
+    - The structure of the readme was heavily influenced by [this repository](https://github.com/Lasserini/stine-poulsen-psykoterapeut) of a fellow CI student
+
 ### Content
 
 The concept and idea of Iateria is the work of my good friend Joakim Linde, whom I have asked permission to use his ideas and content for the creation of this wiki.<br><br>
