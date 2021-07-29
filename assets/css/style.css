@@ -463,6 +463,10 @@ figcaption a {
         margin-right: 35px;
     }
 
+    .burger-menu-factions {
+        margin-right: 5px;
+    }
+
     .burger-menu-sub {
         float: right;
         display: flex;
