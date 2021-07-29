@@ -88,12 +88,13 @@ header > a {
 }
 
 .active {
-    background-color: #F28F3B;
+    background-color: #F7AE6E;
     padding: 0 10px;
+    color: #1F3333;
 }
 
 .menu a:hover {
-    background-color: #F28F3B;
+    background-color: #F7AE6E;
     padding: 0 10px;
     font-size: 110%;
     color: #1F3333;
