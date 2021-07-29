@@ -832,4 +832,8 @@ figcaption a {
     .elven-city {
         margin-top: 30px;
     }
+
+    .text-content h2, .text-content h3{
+        text-align: left;
+    }
 }
