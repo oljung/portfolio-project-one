@@ -199,7 +199,7 @@ Will want information about what to find on the page, giving them a grasp on how
     - Used to change image file size for shorter loading times without quiality loss.
 
 1. [contrast tester](https://webaim.org/resources/contrastchecker/)
-    - The Webaim contrast tester eas used to check if contrast was good enough to display text on the selected background.
+    - The Webaim contrast tester is used to check if contrast was good enough to display text on the selected background.
 ## 4. Testing
 
 ### 4.1 Developmen process
@@ -281,11 +281,12 @@ The CSS was tested using this [validator](https://jigsaw.w3.org/) The 9 warnings
 The site was tested using responsivechecker.com (see technologies used) for screen sized ranging from 360px to 1900px and was fully functional and responsive on all of them.
 
 #### 4.2.2 Browser compability
-The site runs euqally satisfactory on Chrome, Firefox IE and Edge. 
+The site runs euqally satisfactory on Chrome, Firefox, IE and Edge. 
 
 #### 4.2.3 Contrast testing
 - #2F4F4F as background with #FFF7EB as text or reversed passed on all tests with contrast ratio of 8.39
 - #1F3333 on #FFF7EB passed all tests with contrast ratio of 12.1.
+- #F7AE6E is sometimes used as a background for active or hovered links. It passed all tests.
 
 ### 4.3 Unfixed bugs
 
