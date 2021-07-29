@@ -220,7 +220,12 @@ footer {
     height: 150px;
     clear: both;
     padding-top: 20px;
+    position: relative;
+}
+
+.signup-footer {
     position: absolute;
+    bottom: 0;
 }
 
 .external-links {
@@ -775,6 +780,10 @@ figcaption a {
 
     footer {
         height: 200px;
+    }
+
+    .signup-footer {
+        position: relative;
     }
 
     .footer-info {
