@@ -87,7 +87,7 @@ header > a {
     font-size: 100%;
 }
 
-.active {
+.menu .active {
     background-color: #F7AE6E;
     padding: 0 10px;
     color: #1F3333;
@@ -252,7 +252,8 @@ footer a{
 }
 
 footer a:hover {
-    color: #F28F3B;
+    color: #2F4F4F;
+    background-color: #FFF7EB;
 }
 
 .footer-info {
