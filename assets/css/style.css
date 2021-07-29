@@ -221,6 +221,7 @@ footer {
     clear: both;
     padding-top: 20px;
     position: relative;
+    bottom: 0;
 }
 
 .signup-footer {
