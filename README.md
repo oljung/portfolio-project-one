@@ -295,6 +295,44 @@ The site runs euqally satisfactory on Chrome, Firefox, IE and Edge.
 **FIXED
 Solution: Adjust width of container div to be somewhat less wide, removing the issue of elements overflowing. The overflow: auto; is still necessary for all elements to fall into the container on pages with alot of content.
 
+### 4.4 Testing user Stories
+
+- As an ownder, I want to quickly inform users of what to expect on my site.
+    - The landing page offers quick information about what the site is through the cover text and short information paragraph.
+    - Centered on the site are the main topics, with links to respective page on the site.
+
+- As an ownder, I want to provide information about the content in a logical and structured way.
+    - All information is provided on pages that all have a specific topic.
+    - The topics are logically arranged, one with the continent and its history, one with races and one with factions.
+
+- As an ownder, I want to provide ways for users to stay up to date with any changes I make to the content.
+    - Both the nav bar and landing page main content has a link to the sign up page, where a form will let the user sign up for a news letter.
+
+- As an ownder, I want to provide the users with ways to find additional reading about teh role playing where the setting is used.
+    - The footer contains links to further reading about dungeons and dragons, as well as sites providing resources for online role play gaming.
+
+- As a user, I want to find information about a specific topic that i need to read more about.
+    - Both landing page and nav bar guides the user to appropriate main topic.
+    - A future search function will let the user search for information on the site.
+
+- As a user, I want to find inspiration for creating my own fantasy setting.
+    - The topic about Iateria is rich in both inforation and lore, providing ample inspiration for users to build upon.
+
+- As a user, I want to stay up to date with any changes made.
+    - Both the nav bar and landing page main content has a link to the sign up page, where a form will let the user sign up for a news letter.
+
+- As a user, I want to learn more about Iateria and possibly use it for my own games.
+    - The information pages provide the basic information for a user to set up a game in this setting.
+    - The map will let the user select locations for their campaign, and allow the players to select destinations.
+
+- As a user, I want to read about a faction in the setting for creating a character.
+    - The factions page provides information about the most important factions that a player character can ally with, or have a conflict with.
+
+- As a user, I want to read about races in the setting to know what my options are when creating a character.
+    - The races pages provides information about some of the more common races in the game, and their role in Iateria.
+
+- As a user, I want to find ways to learn more about role playing games in general.
+    - The footer contains links for players who after reading the information available on the site want to learn more about DnD or table top role playing games in general.
 
 ## 5. Deployment
 
