@@ -357,7 +357,7 @@ To clone the repository to make a local copy of it, follow these steps:
 ```
 $ git clone https://github.com/oljung/portfolio-project-one
 ```
-1. Your clone will now be saved, and any commits will be saved to your new repository
+7. Your clone will now be saved, and any commits will be saved to your new repository
 
 ## Credits
 
